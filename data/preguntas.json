@@ -1,0 +1,301 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Las prioridades estratégicas de la UE para el periodo 2021-2030 son:",
+      "opciones": [
+        "Cinco: Aumentar la calidad, la equidad, la inclusión y el éxito de todos en el ámbito de la educación y la formación; Hacer del aprendizaje permanente y la movilidad una realidad para todos; Mejorar las competencias y la motivación en la profesión docente; Reforzar la educación superior europea; Respaldar las transiciones ecológica y digital en la educación y la formación y a través de estas",
+        "Tres: Aumentar la calidad, la equidad, la inclusión y el éxito de todos en el ámbito de la educación y la formación; Hacer del aprendizaje permanente y la movilidad una realidad para todos; Mejorar las competencias y la motivación en la profesión docente; Reforzar la educación superior europea",
+        "Cinco: Aumentar la calidad, la equidad, la inclusión y el éxito de todos en el ámbito de la educación y la formación; Hacer del aprendizaje permanente y la movilidad una realidad para todos; Mejorar las competencias y la motivación en la profesión docente; Reforzar la educación básica europea; Respaldar las transiciones ecológica y digital en la educación y la formación y a través de estas",
+        "Cuatro: Aumentar la calidad, la equidad, la inclusión y el éxito de todos en el ámbito de la educación y la formación; Hacer del aprendizaje permanente y la movilidad una realidad para todos; Mejorar las competencias y la motivación en la profesión docente; Reforzar la educación básica europea"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 2,
+      "pregunta": "Los objetivos a escala de la UE son:",
+      "opciones": [
+        "Siete",
+        "Cinco",
+        "Cuatro",
+        "Ocho"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 3,
+      "pregunta": "La Asamblea General de las Naciones Unidas y países de todo el mundo firmaron la Agenda 2030 para el desarrollo sostenible de las Naciones Unidas. Cuántos son los objetivos de Desarrollo Sostenible (ODS) y por cuántos Estados han sido suscritos:",
+      "opciones": [
+        "Son 19 ODS y han sido suscritos por 193 Estados, incluida la Unión Europea y sus Estados miembros.",
+        "Son 19 ODS y han sido suscritos por 193 Estados, sin incluir a la Unión Europea y sus Estados miembros.",
+        "Son 17 ODS y han sido suscritos por 193 Estados, incluida la Unión Europea y sus Estados miembros.",
+        "Son 17 ODS y han sido suscritos por 193 Estados, sin incluir a la Unión Europea y sus Estados miembros."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué libertades y derechos se consagran en el artículo 27 de la Constitución Española?:",
+      "opciones": [
+        "Libertad de enseñanza, derecho a la educación y autonomía universitaria.",
+        "Libertad de enseñanza, derecho a la objeción de conciencia y autonomía universitaria.",
+        "Libertad de enseñanza y credo, derecho a la participación de los padres en el proceso educativo y autonomía universitaria.",
+        "Libertad de escolarización del alumnado, derecho a la formación religiosa individual, copago del sistema educativo en su etapa obligatoria por parte de las familias."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Con qué instrumentos cuenta el Sistema Educativo para la consecución de sus fines?:",
+      "opciones": [
+        "El Consejo Escolar del Estado, la Conferencia Sectorial de Educación, el Sistema de Información Educativa y el Sistema Estatal de Becas y Ayudas.",
+        "La Conferencia Sectorial de Educación, las mesas de alumnos, el Sistema de Información Educativa y el Sistema Estatal de Becas y Ayudas.",
+        "El Consejo Escolar del Estado, la Conferencia Sectorial de Educación, las mesas sectoriales, el Sistema de Información Educativa y el Sistema Estatal de Becas y Ayudas",
+        "El Consejo Escolar del Estado, la Conferencia Sectorial de Educación, las mesas sectoriales, el Observatorio Nacional para la igualdad de oportunidades y el Sistema Estatal de Becas y Ayudas"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 6,
+      "pregunta": "La Educación básica la constituyen:",
+      "opciones": [
+        "La Educación Infantil, la Educación Primaria y la Educación Secundaria Obligatoria",
+        "La Educación Primaria, la Educación Secundaria Obligatoria.",
+        "El segundo ciclo de la Educación Infantil, la Educación Primara, la Educación Secundaria Obligatoria y los ciclos formativos de Grado Básico.",
+        "La Educación Primaria, la Educación Secundaria Obligatoria y los ciclos formativos de Grado Básico."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 7,
+      "pregunta": "Los ciclos de Formación Profesional Básica serán:",
+      "opciones": [
+        "De oferta voluntaria y carácter gratuito.",
+        "De oferta obligatoria y carácter básico.",
+        "Una forma de garantizar el derecho a la educación de quienes no puedan asistir de modo regular a los centros docentes",
+        "De oferta obligatoria y carácter gratuito."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 8,
+      "pregunta": "La Educación Superior está constituida por:",
+      "opciones": [
+        "La enseñanza universitaria, las enseñanzas artísticas superiores, la formación profesional de Grado Superior, las enseñanzas profesionales de artes plásticas y diseño de grado superior y las enseñanzas deportivas de grado superior.",
+        "La enseñanza universitaria, las enseñanzas artísticas superiores, la formación profesional de Grado Superior, las enseñanzas de idiomas superiores y las enseñanzas deportivas de grado superior.",
+        "Las enseñanzas artísticas superiores, la formación profesional de Grado Superior, las enseñanzas profesionales de artes plásticas y diseño de grado superior y las enseñanzas deportivas de grado superior.",
+        "La formación profesional de Grado Superior, las enseñanzas profesionales de artes plásticas y diseño de grado superior, las enseñanzas deportivas de grado superior y las enseñanzas de música y danza de grado superior."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 9,
+      "pregunta": "La Educación Infantil es:",
+      "opciones": [
+        "De carácter obligatorio, engloba dos ciclos y tendrá un carácter educativo.",
+        "De carácter voluntario, engloba tres ciclos y tendrá un carácter educativo.",
+        "De carácter voluntario, engloba dos ciclos y tendrá un carácter informal.",
+        "De carácter voluntario, engloba dos ciclos y tendrá un carácter educativo."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 10,
+      "pregunta": "La Educación Primaria:",
+      "opciones": [
+        "Comprende dos ciclos de tres años académicos cada uno y se organiza en áreas, que tendrán un carácter global e integrador, orientadas al desarrollo de las competencias del alumnado.",
+        "Comprende tres ciclos de dos años académicos cada uno y se organiza en asignaturas, que tendrán un carácter global e integrador, orientadas al desarrollo de las competencias del alumnado.",
+        "Comprende tres ciclos de dos años académicos cada uno y se organiza en áreas, que tendrán un carácter global e integrador, orientadas al desarrollo de las competencias del alumnado",
+        "Comprende tres ciclos de dos años académicos cada uno y se organiza en áreas, que tendrán un carácter parcial y separado, orientadas al desarrollo de las competencias del alumnado."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 11,
+      "pregunta": "La Educación Secundaria Obligatoria consta de:",
+      "opciones": [
+        "Comprende dos ciclos de cuatro años cada uno y se organiza en materias obligatorias y optativas.",
+        "Comprende cuatro cursos y se organiza en materias obligatorias y de libre configuración autonómica.",
+        "Comprende cuatro cursos y se organiza en materias obligatorias y materias optativas.",
+        "Comprende tres ciclos de dos años académicos cada uno y se organiza en áreas obligatorias y optativas."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 12,
+      "pregunta": "En la Educación Secundaria Obligatoria:",
+      "opciones": [
+        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta expresión oral y escrita y el uso de las matemáticas. A fin de promover el hábito de la lectura, se dedicará un tiempo a la misma en la materia de lengua castellana y literatura.",
+        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta expresión oral y escrita y el uso de las matemáticas. A fin de promover el hábito de la lectura, se dedicará un tiempo a la misma en la práctica docente de todas las materias.",
+        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta expresión oral y escrita y el uso de las ciencias. A fin de promover el hábito de la lectura, se dedicará un tiempo a la misma en la práctica docente de todas las materias.",
+        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta dedicación de un tiempo al hábito de la lectura en todas las materias."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 13,
+      "pregunta": "En la Educación Secundaria Obligatoria, el Consejo Orientador se entregará:",
+      "opciones": [
+        "Al finalizar el segundo y el tercer curso de la Educación Secundaria Obligatoria y al finalizar la etapa o, en su caso, al concluir la escolarización.",
+        "Al finalizar el tercer curso de la Educación Secundaria Obligatoria y al finalizar la etapa o, en su caso, al concluir la escolarización.",
+        "Al finalizar todos los cursos de la Educación Secundaria Obligatoria o, en su caso, al concluir la escolarización.",
+        "Al finalizar la Educación Secundaria Obligatoria o, en su caso, al concluir la escolarización."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 14,
+      "pregunta": "Al programa de diversificación curricular se accede:",
+      "opciones": [
+        "Al finalizar el segundo curso, el alumno o alumna podrá promocionar a tercero ordinario o a diversificación curricular, una vez oído el propio alumno o alumna y sus padres, madres o tutores legales, a un programa de diversificación curricular, tras la oportuna evaluación.",
+        "Al finalizar el segundo curso, quienes no estén en condiciones de promocionar a tercero podrán incorporarse, una vez oído al equipo docente, a un programa de diversificación curricular, tras la oportuna evaluación.",
+        "Al finalizar el segundo curso, quienes no estén en condiciones de promocionar a tercero podrán incorporarse, una vez oído el propio alumno o alumna y sus padres, madres o tutores legales, a un programa de diversificación curricular, tras la oportuna evaluación.",
+        "Al finalizar el primer curso, quienes no estén en condiciones de promocionar a tercero podrán incorporarse, una vez oído el propio alumno o alumna y sus padres, madres o tutores legales, a un programa de diversificación curricular, tras la oportuna evaluación."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 15,
+      "pregunta": "En la Educación Secundaria Obligatoria las medidas ordinarias podrán aplicarse:",
+      "opciones": [
+        "A todo el alumnado del centro, en función de sus necesidades educativas.",
+        "Al alumnado con necesidades educativas especiales, en función de sus necesidades educativas.",
+        "Al alumnado con dificultades específicas de aprendizaje, en función de sus necesidades educativas.",
+        "Al alumnado con necesidad de compensación educativa, en función de sus necesidades educativas."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 16,
+      "pregunta": "A las enseñanzas de Bachillerato se podrá acceder con:",
+      "opciones": [
+        "El título de Formación Profesional Básica.",
+        "El certificado académico de haber cursado cuarto de la ESO.",
+        "El título de Graduado en ESO.",
+        "El título de Graduado en ESO con todas las asignaturas aprobadas."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Cuántas modalidades hay de bachillerato en la LOMLOE?",
+      "opciones": [
+        "Cuatro (General, Tecnología, Humanidades y Ciencias Sociales y Artes).",
+        "Dos (Letras y Ciencias).",
+        "Tres (Artes, Ciencias, Humanidades y Ciencias Sociales).",
+        "Cuatro (Ciencias y Tecnología, Humanidades y Ciencias Sociales, Artes y General)."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 18,
+      "pregunta": "¿En cuántos cursos se organiza el actual bachillerato?:",
+      "opciones": [
+        "Dos",
+        "Dos, excepcionalmente tres.",
+        "Dos en régimen diurno y tres en régimen nocturno.",
+        "Depende de las modalidades."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 19,
+      "pregunta": "En Bachillerato para que un alumno promocione de curso:",
+      "opciones": [
+        "La Junta de Profesores decidirá si el alumno ha logrado los objetivos y ha alcanzado las competencias.",
+        "El profesorado de cada materia decidirá, al término del curso, si el alumno o alumna ha logrado los objetivos y ha alcanzado el adecuado grado de adquisición de las competencias correspondientes.",
+        "El profesor tutor decidirá si el alumno ha logrado los objetivos y ha alcanzado las competencias.",
+        "El claustro de los profesores de Bachillerato decidirán si el alumno ha logrado los objetivos y ha alcanzado las competencias."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 20,
+      "pregunta": "La Formación Profesional comprende:",
+      "opciones": [
+        "Los ciclos formativos de Formación Profesional Básica, Formación Profesional de Grado Medio, la Formación Profesional de Grado Superior y los cursos de especialización.",
+        "Los ciclos formativos de Formación Profesional de Grado Medio y la Formación Profesional de Grado Superior.",
+        "Los ciclos formativos de Formación Profesional Básica, Formación Profesional de Grado Medio y la Formación Profesional de Grado Superior y los programas de Mejora del rendimiento.",
+        "Los ciclos formativos de Formación Profesional Básica, Formación Profesional de Grado Medio y la Formación Profesional de Grado Superior y las Aulas de Compensación Educativa."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 21,
+      "pregunta": "¿Qué diferencias existen entre los ciclos formativos de grado medio y de grado superior?:",
+      "opciones": [
+        "Las diferencias consisten en el número de módulos/asignaturas que lo componen.",
+        "No hay diferencias. Ambos tienen igual duración, cualificación profesional y acceso.",
+        "Las diferencias se basan en la duración, nivel de titulación y características de acceso.",
+        "Las diferencias se basan exclusivamente en el nivel de acceso."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 22,
+      "pregunta": "Las Enseñanzas de Personas adultas sólo podrán ser cursadas por:",
+      "opciones": [
+        "Únicamente podrán ser cursadas por personas mayores de 18 años y excepcionalmente los mayores de 16",
+        "Únicamente podrán ser cursadas por personas mayores de 18 años y excepcionalmente los mayores de 16 con un contrato laboral que no les permita acudir a los centros educativos en régimen ordinario, los deportistas de Alto Rendimiento y los mayores de 17 años matriculados en enseñanzas de idiomas",
+        "Únicamente podrán ser cursadas por personas mayores de 18 años",
+        "Únicamente podrán ser cursadas por personas mayores de 18 años y excepcionalmente los mayores de 16 con un contrato laboral que no les permita acudir a los centros educativos en régimen ordinario y los deportistas de Alto Rendimiento"
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 23,
+      "pregunta": "En la ESO, la evaluación de diagnóstico de las competencias alcanzadas por el alumnado se realizará:",
+      "opciones": [
+        "Al finalizar 1º y 2º de la ESO.",
+        "Al finalizar 2º de la ESO.",
+        "Al finalizar 2º de la ESO y al finalizar el Bachillerato.",
+        "Al finalizar 2º y 4º de la ESO."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 24,
+      "pregunta": "¿Cuáles son los tipos de AUTONOMÍA en los centros docentes públicos?:",
+      "opciones": [
+        "La libertad de cátedra, curricular y pedagógica, y organizativa.",
+        "La económica, curricular y pedagógica, organizativa y de gestión de personal.",
+        "La libertad de cátedra, curricular y pedagógica, organizativa y de gestión de personal.",
+        "La libertad de cátedra, curricular y pedagógica, económica y de gestión de personal."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 25,
+      "pregunta": "La autonomía económica de los centros públicos permite:",
+      "opciones": [
+        "Gestionar los recursos financieros aportados por las familias para los gastos ordinarios.",
+        "Gestionar los recursos financieros aportados por la Administración y por las familias para los gastos ordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios.",
+        "Gestionar los recursos financieros aportados por la Administración para los gastos extraordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios.",
+        "Gestionar los recursos financieros aportados por la Administración para los gastos ordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 26,
+      "pregunta": "La autonomía pedagógica y curricular reconoce al centro y a los profesores:",
+      "opciones": [
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué, cómo y cuándo enseñar.",
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué y cómo enseñar.",
+        "Se refiere a la autonomía del profesorado para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado.",
+        "Se refiere a la autonomía del centro para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado y la distribución de tareas del profesorado."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 27,
+      "pregunta": "La autonomía organizativa se refiere a:",
+      "opciones": [
+        "Se refiere a la autonomía del centro para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado y la distribución de tareas del profesorado.",
+        "Se refiere a la autonomía del profesorado para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado.",
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué y cómo enseñar.",
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué, cómo y cuándo enseñar."
+      ],
+      "respuesta_correcta": 0
+    }
+  ]
+}

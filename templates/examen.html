@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen {{ 'sin Revisión' if modo == 'sin-revision' else 'con Revisión' }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-nav">
+                <a href="/" class="btn-volver">← Volver</a>
+                <h1>Examen {{ 'sin Revisión' if modo == 'sin-revision' else 'con Revisión' }}</h1>
+                <div class="progreso-contador">
+                    <span id="pregunta-actual">1</span> / <span id="total-preguntas">10</span>
+                </div>
+            </div>
+        </header>
+
+        <main id="examen-container">
+            <!-- Loader mientras cargan las preguntas -->
+            <div id="loader" class="loader">
+                <div class="spinner"></div>
+                <p>Cargando examen...</p>
+            </div>
+
+            <!-- Contenedor de preguntas (se llena dinámicamente) -->
+            <div id="preguntas-container" style="display: none;"></div>
+
+            <!-- Feedback inmediato (solo para modo con revisión) -->
+            <div id="feedback-container" style="display: none;"></div>
+
+            <!-- Navegación -->
+            <div id="navegacion" class="navegacion" style="display: none;">
+                <button id="btn-anterior" class="btn btn-secondary">← Anterior</button>
+                <button id="btn-responder" class="btn btn-primary" style="display: none;">Comprobar Respuesta</button>
+                <button id="btn-siguiente" class="btn btn-primary">Siguiente →</button>
+                <button id="btn-finalizar" class="btn btn-success" style="display: none;">✓ Finalizar Examen</button>
+            </div>
+        </main>
+
+        <!-- Modal de resultados -->
+        <div id="modal-resultados" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>📊 Resultados del Examen</h2>
+                </div>
+                <div class="modal-body" id="resultados-body">
+                    <!-- Se llena dinámicamente -->
+                </div>
+                <div class="modal-footer">
+                    <button id="btn-ver-respuestas" class="btn btn-primary">Ver Respuestas Detalladas</button>
+                    <a href="/" class="btn btn-secondary">Volver a Inicio</a>
+                    <button id="btn-reintentar" class="btn btn-success">Reintentar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vista de corrección detallada -->
+        <div id="vista-correccion" style="display: none;">
+            <div class="correccion-header">
+                <button id="btn-cerrar-correccion" class="btn btn-secondary">← Volver a Resultados</button>
+                <h2>Revisión Detallada</h2>
+            </div>
+            <div id="correccion-container"></div>
+        </div>
+    </div>
+
+    <script>
+        // Configuración del examen
+        const MODO_EXAMEN = '{{ modo }}';
+    </script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
