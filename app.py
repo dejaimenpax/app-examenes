@@ -8,6 +8,7 @@ import json
 import os
 import random
 import time
+import copy
 
 app = Flask(__name__)
 
@@ -41,11 +42,12 @@ def examen(modo):
 def api_examen_aleatorio():
     """API para obtener 10 preguntas aleatorias"""
     # Seleccionar 10 preguntas aleatorias
-    todas_preguntas = PREGUNTAS['preguntas'].copy()
+    # copia profunda para no modificar el original
+    todas_preguntas = copy.deepcopy(PREGUNTAS['preguntas'])
     preguntas_seleccionadas = random.sample(todas_preguntas, min(10, len(todas_preguntas)))
 
     for pregunta in preguntas_seleccionadas:
-        opciones = pregunta['opciones'].copy()
+        opciones = pregunta['opciones']
         respuesta_correcta_texto = opciones[pregunta['respuesta_correcta']]
 
         #barajar
