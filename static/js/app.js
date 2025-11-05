@@ -176,6 +176,12 @@ function mostrarPregunta(numero) {
         if (feedbackContainer) {
             feedbackContainer.style.display = 'none';
         }
+
+        // resetear botón de responder si existe (modo con revisión)
+        if (btnResponder && MODO_EXAMEN === 'con-revision') {
+            btnResponder.disabled = false;
+            btnResponder.textContent = 'Comprobar Respuesta';
+        }
         
         // Scroll al inicio
         window.scrollTo({ top: 0, behavior: 'smooth' });

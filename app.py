@@ -7,8 +7,12 @@ from flask import Flask, render_template, jsonify, request
 import json
 import os
 import random
+import time
 
 app = Flask(__name__)
+
+# Inicializar semilla aleatoria con el tiempo actual
+random.seed(time.time())
 
 # Cargar datos al iniciar la aplicación
 def cargar_preguntas():
@@ -39,6 +43,17 @@ def api_examen_aleatorio():
     # Seleccionar 10 preguntas aleatorias
     todas_preguntas = PREGUNTAS['preguntas'].copy()
     preguntas_seleccionadas = random.sample(todas_preguntas, min(10, len(todas_preguntas)))
+
+    for pregunta in preguntas_seleccionadas:
+        opciones = pregunta['opciones'].copy()
+        respuesta_correcta_texto = opciones[pregunta['respuesta_correcta']]
+
+        #barajar
+        random.shuffle(opciones)
+
+        #actualizar el índice de la respuesta correcta
+        pregunta['respuesta_correcta'] = opciones.index(respuesta_correcta_texto)
+        
     
     return jsonify({
         'preguntas': preguntas_seleccionadas
