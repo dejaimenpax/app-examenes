@@ -270,7 +270,7 @@ if (btnResponder) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    pregunta_id: pregunta.id,
+                    pregunta: pregunta, //enviamos la pregunta completa con opciones barajadas
                     respuesta_usuario: respuesta
                 })
             });

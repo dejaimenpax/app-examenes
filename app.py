@@ -53,7 +53,7 @@ def api_examen_aleatorio():
 
         #actualizar el índice de la respuesta correcta
         pregunta['respuesta_correcta'] = opciones.index(respuesta_correcta_texto)
-        
+
     
     return jsonify({
         'preguntas': preguntas_seleccionadas
@@ -63,21 +63,19 @@ def api_examen_aleatorio():
 def verificar_respuesta():
     """API para verificar una respuesta individual (modo con revisión)"""
     data = request.json
-    pregunta_id = data.get('pregunta_id')
+    pregunta_data = data.get('pregunta')
     respuesta_usuario = data.get('respuesta_usuario')
     
-    # Buscar la pregunta
-    pregunta = next((p for p in PREGUNTAS['preguntas'] if p['id'] == pregunta_id), None)
-    
-    if not pregunta:
-        return jsonify({'error': 'Pregunta no encontrada'}), 404
-    
-    es_correcta = respuesta_usuario == pregunta['respuesta_correcta']
+    if not pregunta_data:
+        return jsonify({'error': 'Datos de la pregunta no proporcionados'}), 400
+
+    #usar la pregunta que enviamos desde el cliente (con opciones barajadas)
+    es_correcta = respuesta_usuario == pregunta_data['respuesta_correcta']
     
     return jsonify({
         'es_correcta': es_correcta,
-        'respuesta_correcta': pregunta['respuesta_correcta'],
-        'explicacion_opcion_correcta': pregunta['opciones'][pregunta['respuesta_correcta']]
+        'respuesta_correcta': pregunta_data['respuesta_correcta'],
+        'explicacion_opcion_correcta': pregunta_data['opciones'][pregunta_data['respuesta_correcta']]
     })
 
 @app.route('/api/corregir', methods=['POST'])
