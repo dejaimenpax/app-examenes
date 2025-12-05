@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batería completa de preguntas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        .bateria-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .bateria-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .bateria-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .bateria-description {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 24px;
+        }
+        
+        .bateria-stats {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .stat-badge {
+            padding: 8px 20px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 50px;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        
+        .tema-section {
+            margin-bottom: 48px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: var(--shadow);
+        }
+        
+        .tema-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .tema-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        
+        .tema-count {
+            padding: 6px 16px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 50px;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        
+        .pregunta-item {
+            margin-bottom: 24px;
+            padding: 24px;
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .pregunta-item:hover {
+            border-color: var(--primary-color);
+            transform: translateX(4px);
+        }
+        
+        .pregunta-numero {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(99, 102, 241, 0.2);
+            border-radius: 6px;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-bottom: 12px;
+        }
+        
+        .pregunta-texto {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+        
+        .respuesta-correcta {
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 12px;
+            display: none;
+        }
+        
+        .respuesta-correcta.visible {
+            display: block;
+        }
+        
+        .respuesta-label {
+            font-weight: 600;
+            color: var(--success-color);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .respuesta-texto {
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        
+        .btn-toggle-respuesta {
+            padding: 10px 20px;
+            background: rgba(99, 102, 241, 0.2);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            color: var(--primary-color);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.875rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-toggle-respuesta:hover {
+            background: rgba(99, 102, 241, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            background: rgba(100, 116, 139, 0.2);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-bottom: 32px;
+        }
+        
+        .btn-back:hover {
+            background: rgba(100, 116, 139, 0.3);
+            border-color: var(--secondary-color);
+            transform: translateX(-4px);
+        }
+        
+        .loader {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--border-color);
+            border-top-color: var(--primary-color);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated background gradient -->
+    <div class="gradient-bg"></div>
+    
+    <!-- Floating shapes decoration -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+    
+    <div class="bateria-container">
+        <a href="/" class="btn-back">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Volver al inicio
+        </a>
+        
+        <div class="bateria-header">
+            <h1 class="bateria-title">Batería completa de preguntas</h1>
+            <p class="bateria-description">
+                Explora todas las preguntas disponibles organizadas por tema. 
+                Haz clic en "Ver respuesta" para revelar la respuesta correcta de cada pregunta.
+            </p>
+            <div class="bateria-stats">
+                <div class="stat-badge">
+                    <span id="total-preguntas-badge">Cargando...</span>
+                </div>
+                <div class="stat-badge">
+                    <span id="total-temas-badge">Cargando...</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="loader" class="loader">
+            <div class="spinner"></div>
+            <p style="color: var(--text-secondary);">Cargando preguntas...</p>
+        </div>
+        
+        <div id="temas-container"></div>
+    </div>
+    
+    <script>
+        // Cargar todas las preguntas al cargar la página
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const response = await fetch('/api/todas-preguntas');
+                const data = await response.json();
+                
+                const loader = document.getElementById('loader');
+                const temasContainer = document.getElementById('temas-container');
+                
+                loader.style.display = 'none';
+                
+                let totalPreguntas = 0;
+                
+                data.temas.forEach((tema, temaIndex) => {
+                    totalPreguntas += tema.preguntas.length;
+                    
+                    const temaSection = document.createElement('div');
+                    temaSection.className = 'tema-section';
+                    
+                    let preguntasHTML = '';
+                    tema.preguntas.forEach((pregunta, index) => {
+                        preguntasHTML += `
+                            <div class="pregunta-item">
+                                <div class="pregunta-numero">Pregunta ${index + 1}</div>
+                                <div class="pregunta-texto">${pregunta.pregunta}</div>
+                                <button class="btn-toggle-respuesta" onclick="toggleRespuesta(${temaIndex}, ${index})">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle;">
+                                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Ver respuesta
+                                </button>
+                                <div class="respuesta-correcta" id="respuesta-${temaIndex}-${index}">
+                                    <div class="respuesta-label">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Respuesta correcta:
+                                    </div>
+                                    <div class="respuesta-texto">${pregunta.opciones[pregunta.respuesta_correcta]}</div>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    
+                    temaSection.innerHTML = `
+                        <div class="tema-header">
+                            <h2 class="tema-title">${tema.tema}</h2>
+                            <div class="tema-count">${tema.preguntas.length} preguntas</div>
+                        </div>
+                        ${preguntasHTML}
+                    `;
+                    
+                    temasContainer.appendChild(temaSection);
+                });
+                
+                // Actualizar badges
+                document.getElementById('total-preguntas-badge').textContent = `${totalPreguntas} preguntas`;
+                document.getElementById('total-temas-badge').textContent = `${data.temas.length} temas`;
+                
+            } catch (error) {
+                console.error('Error al cargar preguntas:', error);
+                document.getElementById('loader').innerHTML = '<p style="color: var(--danger-color);">Error al cargar las preguntas</p>';
+            }
+        });
+        
+        function toggleRespuesta(temaIndex, preguntaIndex) {
+            const respuestaDiv = document.getElementById(`respuesta-${temaIndex}-${preguntaIndex}`);
+            respuestaDiv.classList.toggle('visible');
+        }
+    </script>
+</body>
+</html>

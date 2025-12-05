@@ -178,6 +178,30 @@ def api_temas():
         'temas': obtener_temas_disponibles()
     })
 
+@app.route('/bateria-preguntas')
+def bateria_preguntas():
+    """Página con todas las preguntas disponibles"""
+    return render_template('bateria.html')
+
+@app.route('/api/todas-preguntas')
+def api_todas_preguntas():
+    """API para obtener todas las preguntas organizadas por tema"""
+    data_dir = os.path.join(os.path.dirname(__file__), 'data')
+    archivos_temas = ['tema1.json', 'tema2.json', 'tema3.json', 'tema4.json', 
+                      'tema5.json', 'tema6.json', 'tema7.json', 'legislacion.json']
+    
+    temas_data = []
+    for archivo in archivos_temas:
+        ruta = os.path.join(data_dir, archivo)
+        if os.path.exists(ruta):
+            with open(ruta, 'r', encoding='utf-8') as f:
+                tema_data = json.load(f)
+                temas_data.append(tema_data)
+    
+    return jsonify({
+        'temas': temas_data
+    })
+
 if __name__ == '__main__':
     # Ejecutar en modo debug para desarrollo
     app.run(debug=True, host='0.0.0.0', port=5000)

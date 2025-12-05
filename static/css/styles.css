@@ -347,6 +347,10 @@ header {
     transform: scale(1.1) rotate(5deg);
 }
 
+.modo-card-full {
+    grid-column: 1 / -1;
+}
+
 .modo-card h2 {
     color: var(--text-primary);
     margin-bottom: 16px;

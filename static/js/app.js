@@ -337,6 +337,9 @@ function mostrarFeedback(resultado) {
     
     feedbackContainer.innerHTML = feedbackHTML;
     feedbackContainer.style.display = 'block';
+    
+    // Hacer scroll suave hacia el feedback
+    feedbackContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 /**
@@ -428,7 +431,7 @@ function mostrarResultadosConRevision() {
     
     const resultadosHTML = `
         <div class="resultado-stats">
-            <h3>${aprobado ? '🎉 ¡APROBADO!' : '😞 SUSPENDIDO'}</h3>
+            <h3>${aprobado ? '🎉 ¡APROBADO!' : '😞 SUSPENSO'}</h3>
             <div class="puntuacion-grande ${aprobado ? 'aprobado' : 'suspendido'}">
                 ${puntuacion.toFixed(2)}
             </div>
@@ -467,7 +470,7 @@ function mostrarResultados() {
     
     const resultadosHTML = `
         <div class="resultado-stats">
-            <h3>${aprobado ? '🎉 ¡APROBADO!' : '😞 SUSPENDIDO'}</h3>
+            <h3>${aprobado ? '🎉 ¡APROBADO!' : '😞 SUSPENSO'}</h3>
             <div class="puntuacion-grande ${aprobado ? 'aprobado' : 'suspendido'}">
                 ${resultadosExamen.puntuacion}
             </div>
