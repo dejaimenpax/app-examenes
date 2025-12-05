@@ -120,6 +120,25 @@
             margin-bottom: 16px;
         }
         
+        .opciones-lista {
+            margin-top: 12px;
+            display: none;
+        }
+        
+        .opciones-lista.visible {
+            display: block;
+        }
+        
+        .opcion-item {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        
         .respuesta-correcta {
             background: rgba(16, 185, 129, 0.15);
             border: 1px solid rgba(16, 185, 129, 0.3);
@@ -147,6 +166,12 @@
             line-height: 1.6;
         }
         
+        .botones-pregunta {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        
         .btn-toggle-respuesta {
             padding: 10px 20px;
             background: rgba(99, 102, 241, 0.2);
@@ -161,6 +186,23 @@
         
         .btn-toggle-respuesta:hover {
             background: rgba(99, 102, 241, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .btn-toggle-opciones {
+            padding: 10px 20px;
+            background: rgba(139, 92, 246, 0.2);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            color: #a78bfa;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.875rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-toggle-opciones:hover {
+            background: rgba(139, 92, 246, 0.3);
             transform: translateY(-2px);
         }
         
@@ -270,17 +312,38 @@
                     
                     let preguntasHTML = '';
                     tema.preguntas.forEach((pregunta, index) => {
+                        // Generar opciones HTML
+                        let opcionesHTML = '';
+                        const letras = ['a)', 'b)', 'c)', 'd)'];
+                        pregunta.opciones.forEach((opcion, opcionIndex) => {
+                            opcionesHTML += `<div class="opcion-item"><strong>${letras[opcionIndex]}</strong> ${opcion}</div>`;
+                        });
+                        
                         preguntasHTML += `
                             <div class="pregunta-item">
                                 <div class="pregunta-numero">Pregunta ${index + 1}</div>
                                 <div class="pregunta-texto">${pregunta.pregunta}</div>
-                                <button class="btn-toggle-respuesta" onclick="toggleRespuesta(${temaIndex}, ${index})">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle;">
-                                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                    Ver respuesta
-                                </button>
+                                
+                                <div class="botones-pregunta">
+                                    <button class="btn-toggle-respuesta" onclick="toggleRespuestaCorrecta(${temaIndex}, ${index})">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle;">
+                                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Ver respuesta correcta
+                                    </button>
+                                    
+                                    <button class="btn-toggle-opciones" onclick="toggleTodasOpciones(${temaIndex}, ${index})">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle;">
+                                            <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        Ver todas las respuestas
+                                    </button>
+                                </div>
+                                
+                                <div class="opciones-lista" id="opciones-${temaIndex}-${index}">
+                                    ${opcionesHTML}
+                                </div>
+                                
                                 <div class="respuesta-correcta" id="respuesta-${temaIndex}-${index}">
                                     <div class="respuesta-label">
                                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -288,7 +351,7 @@
                                         </svg>
                                         Respuesta correcta:
                                     </div>
-                                    <div class="respuesta-texto">${pregunta.opciones[pregunta.respuesta_correcta]}</div>
+                                    <div class="respuesta-texto"><strong>${letras[pregunta.respuesta_correcta]}</strong> ${pregunta.opciones[pregunta.respuesta_correcta]}</div>
                                 </div>
                             </div>
                         `;
@@ -315,9 +378,14 @@
             }
         });
         
-        function toggleRespuesta(temaIndex, preguntaIndex) {
+        function toggleRespuestaCorrecta(temaIndex, preguntaIndex) {
             const respuestaDiv = document.getElementById(`respuesta-${temaIndex}-${preguntaIndex}`);
             respuestaDiv.classList.toggle('visible');
+        }
+        
+        function toggleTodasOpciones(temaIndex, preguntaIndex) {
+            const opcionesDiv = document.getElementById(`opciones-${temaIndex}-${preguntaIndex}`);
+            opcionesDiv.classList.toggle('visible');
         }
     </script>
 </body>
