@@ -79,6 +79,9 @@ def examen(modo):
 @app.route('/api/examen-aleatorio')
 def api_examen_aleatorio():
     """API para obtener 10 preguntas aleatorias"""
+    # Reinicializar semilla aleatoria con timestamp para cada petición
+    random.seed(time.time())
+    
     tema = request.args.get('tema', None)
     
     # Si se especifica un tema, cargar preguntas de ese tema
@@ -91,17 +94,18 @@ def api_examen_aleatorio():
         # Seleccionar de todas las preguntas
         todas_preguntas = copy.deepcopy(PREGUNTAS['preguntas'])
     
-    # Seleccionar 10 preguntas aleatorias
+    # Seleccionar 10 preguntas aleatorias (ya randomizadas por tema o todas)
     preguntas_seleccionadas = random.sample(todas_preguntas, min(10, len(todas_preguntas)))
 
+    # Barajar las opciones de cada pregunta seleccionada
     for pregunta in preguntas_seleccionadas:
         opciones = pregunta['opciones']
         respuesta_correcta_texto = opciones[pregunta['respuesta_correcta']]
 
-        #barajar
+        # Barajar opciones con nueva semilla
         random.shuffle(opciones)
 
-        #actualizar el índice de la respuesta correcta
+        # Actualizar el índice de la respuesta correcta después de barajar
         pregunta['respuesta_correcta'] = opciones.index(respuesta_correcta_texto)
 
     

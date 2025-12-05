@@ -54,6 +54,13 @@ header h1 {
     font-size: 1.1rem;
 }
 
+.subtitle-small {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-style: italic;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -633,6 +640,17 @@ footer {
     padding: 30px 20px;
     color: var(--text-secondary);
     font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.author-credit {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    opacity: 0.8;
+    margin-top: 10px;
 }
 
 /* Responsive */

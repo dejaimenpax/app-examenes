@@ -308,7 +308,7 @@ if (btnResponder) {
             console.error('Error:', error);
             alert('Error al verificar la respuesta');
             btnResponder.disabled = false;
-            btnResponder.textContent = 'Comprobar Respuesta';
+            btnResponder.textContent = 'Comprobar respuesta';
         }
     });
 }
