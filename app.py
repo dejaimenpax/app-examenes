@@ -17,12 +17,49 @@ random.seed(time.time())
 
 # Cargar datos al iniciar la aplicación
 def cargar_preguntas():
-    """Carga el archivo JSON con todas las preguntas"""
-    ruta = os.path.join(os.path.dirname(__file__), 'data', 'preguntas.json')
+    """Carga todos los archivos JSON de temas y combina las preguntas"""
+    data_dir = os.path.join(os.path.dirname(__file__), 'data')
+    todas_preguntas = []
+    
+    # Cargar todos los archivos de temas
+    archivos_temas = ['tema1.json', 'tema2.json', 'tema3.json', 'tema4.json', 
+                      'tema5.json', 'tema6.json', 'tema7.json', 'legislacion.json']
+    
+    for archivo in archivos_temas:
+        ruta = os.path.join(data_dir, archivo)
+        if os.path.exists(ruta):
+            with open(ruta, 'r', encoding='utf-8') as f:
+                tema_data = json.load(f)
+                todas_preguntas.extend(tema_data['preguntas'])
+    
+    return {'preguntas': todas_preguntas}
+
+def cargar_preguntas_tema(tema):
+    """Carga las preguntas de un tema específico"""
+    data_dir = os.path.join(os.path.dirname(__file__), 'data')
+    archivo = f'{tema}.json'
+    ruta = os.path.join(data_dir, archivo)
+    
+    if not os.path.exists(ruta):
+        return None
+    
     with open(ruta, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-# Cargar datos en memoria (hardcoded en JSON)
+def obtener_temas_disponibles():
+    """Obtiene la lista de temas disponibles"""
+    return [
+        {'id': 'tema1', 'nombre': 'Tema 1'},
+        {'id': 'tema2', 'nombre': 'Tema 2'},
+        {'id': 'tema3', 'nombre': 'Tema 3'},
+        {'id': 'tema4', 'nombre': 'Tema 4'},
+        {'id': 'tema5', 'nombre': 'Tema 5'},
+        {'id': 'tema6', 'nombre': 'Tema 6'},
+        {'id': 'tema7', 'nombre': 'Tema 7'},
+        {'id': 'legislacion', 'nombre': 'Legislación'}
+    ]
+
+# Cargar datos en memoria
 PREGUNTAS = cargar_preguntas()
 
 @app.route('/')
@@ -36,14 +73,25 @@ def examen(modo):
     if modo not in ['sin-revision', 'con-revision']:
         return "Modo no válido", 404
     
-    return render_template('examen.html', modo=modo)
+    tema = request.args.get('tema', None)
+    return render_template('examen.html', modo=modo, tema=tema)
 
 @app.route('/api/examen-aleatorio')
 def api_examen_aleatorio():
     """API para obtener 10 preguntas aleatorias"""
+    tema = request.args.get('tema', None)
+    
+    # Si se especifica un tema, cargar preguntas de ese tema
+    if tema:
+        tema_data = cargar_preguntas_tema(tema)
+        if not tema_data:
+            return jsonify({'error': 'Tema no encontrado'}), 404
+        todas_preguntas = copy.deepcopy(tema_data['preguntas'])
+    else:
+        # Seleccionar de todas las preguntas
+        todas_preguntas = copy.deepcopy(PREGUNTAS['preguntas'])
+    
     # Seleccionar 10 preguntas aleatorias
-    # copia profunda para no modificar el original
-    todas_preguntas = copy.deepcopy(PREGUNTAS['preguntas'])
     preguntas_seleccionadas = random.sample(todas_preguntas, min(10, len(todas_preguntas)))
 
     for pregunta in preguntas_seleccionadas:
@@ -117,6 +165,13 @@ def corregir_examen():
         'puntuacion': round(puntuacion, 2),
         'porcentaje': round(porcentaje, 2),
         'resultados': resultados
+    })
+
+@app.route('/api/temas')
+def api_temas():
+    """API para obtener la lista de temas disponibles"""
+    return jsonify({
+        'temas': obtener_temas_disponibles()
     })
 
 if __name__ == '__main__':

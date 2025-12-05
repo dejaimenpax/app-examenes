@@ -30,6 +30,21 @@
                     <a href="/examen/sin-revision" class="btn btn-primary btn-large">
                         Iniciar Examen sin Revisión
                     </a>
+                    
+                    <div class="tema-especifico-section">
+                        <div class="divider">
+                            <span>o selecciona un tema específico</span>
+                        </div>
+                        <div class="tema-selector-container">
+                            <label for="tema-sin-revision">Tema:</label>
+                            <select id="tema-sin-revision" class="tema-select">
+                                <option value="">Cargando temas...</option>
+                            </select>
+                            <button id="btn-tema-sin-revision" class="btn btn-secondary">
+                                Iniciar por Tema
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="modo-card">
@@ -47,6 +62,21 @@
                     <a href="/examen/con-revision" class="btn btn-success btn-large">
                         Iniciar Examen con Revisión
                     </a>
+                    
+                    <div class="tema-especifico-section">
+                        <div class="divider">
+                            <span>o selecciona un tema específico</span>
+                        </div>
+                        <div class="tema-selector-container">
+                            <label for="tema-con-revision">Tema:</label>
+                            <select id="tema-con-revision" class="tema-select">
+                                <option value="">Cargando temas...</option>
+                            </select>
+                            <button id="btn-tema-con-revision" class="btn btn-success-secondary">
+                                Iniciar por Tema
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -55,5 +85,53 @@
             <p>Sistema de exámenes tipo test - Las preguntas son seleccionadas aleatoriamente</p>
         </footer>
     </div>
+    
+    <script>
+        // Cargar temas disponibles al cargar la página
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const response = await fetch('/api/temas');
+                const data = await response.json();
+                
+                // Poblar ambos selectores
+                const selectSinRevision = document.getElementById('tema-sin-revision');
+                const selectConRevision = document.getElementById('tema-con-revision');
+                
+                const opcionesHTML = '<option value="">Selecciona un tema</option>' +
+                    data.temas.map(tema => 
+                        `<option value="${tema.id}">${tema.nombre}</option>`
+                    ).join('');
+                
+                selectSinRevision.innerHTML = opcionesHTML;
+                selectConRevision.innerHTML = opcionesHTML;
+                
+                // Agregar event listeners a los botones
+                document.getElementById('btn-tema-sin-revision').addEventListener('click', () => {
+                    const tema = selectSinRevision.value;
+                    if (tema) {
+                        window.location.href = `/examen/sin-revision?tema=${tema}`;
+                    } else {
+                        alert('Por favor, selecciona un tema');
+                    }
+                });
+                
+                document.getElementById('btn-tema-con-revision').addEventListener('click', () => {
+                    const tema = selectConRevision.value;
+                    if (tema) {
+                        window.location.href = `/examen/con-revision?tema=${tema}`;
+                    } else {
+                        alert('Por favor, selecciona un tema');
+                    }
+                });
+                
+            } catch (error) {
+                console.error('Error al cargar temas:', error);
+                document.getElementById('tema-sin-revision').innerHTML = 
+                    '<option value="">Error al cargar temas</option>';
+                document.getElementById('tema-con-revision').innerHTML = 
+                    '<option value="">Error al cargar temas</option>';
+            }
+        });
+    </script>
 </body>
 </html>

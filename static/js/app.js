@@ -32,7 +32,14 @@ document.addEventListener('DOMContentLoaded', () => {
  */
 async function cargarExamen() {
     try {
-        const response = await fetch('/api/examen-aleatorio');
+        // Obtener el parámetro de tema si existe
+        const urlParams = new URLSearchParams(window.location.search);
+        const tema = urlParams.get('tema');
+        
+        // Construir la URL con el parámetro de tema si existe
+        const url = tema ? `/api/examen-aleatorio?tema=${tema}` : '/api/examen-aleatorio';
+        
+        const response = await fetch(url);
         
         if (!response.ok) {
             throw new Error('Error al cargar el examen');
