@@ -126,10 +126,10 @@
       "id": 88,
       "pregunta": "En el Anexo II del Decreto 64/2022, ¿qué estructura común siguen los currículos de las materias?",
       "opciones": [
-        "Es una evaluación Introducción, contenidos, metodología y bibliografía.",
-        "Es una evaluación Descripción inicial, competencias específicas, criterios de evaluación y contenidos.",
-        "Es una evaluación Competencias generales, metodología y objetivos.",
-        "Es una evaluación Descripción de la materia y criterios de evaluación."
+        "Introducción, contenidos, metodología y bibliografía.",
+        "Descripción inicial, competencias específicas, criterios de evaluación y contenidos.",
+        "Competencias generales, metodología y objetivos.",
+        "Descripción de la materia y criterios de evaluación."
       ],
       "respuesta_correcta": 1
     },
@@ -137,10 +137,10 @@
       "id": 89,
       "pregunta": "De acuerdo con el artículo 14 del Decreto 64/2022, ¿en qué casos puede un alumno cursar el Bachillerato en tres años?",
       "opciones": [
-        "Es una evaluación Cuando no alcanza el nivel mínimo en materias troncales",
-        "Es una evaluación Si cursa enseñanzas profesionales de Música o Danza, es deportista de alto nivel o tiene circunstancias especiales",
-        "Es una evaluación Cuando el centro educativo así lo determine",
-        "Es una evaluación Si desea obtener doble titulación en Humanidades y Ciencias Sociales"
+        "Cuando no alcanza el nivel mínimo en materias troncales",
+        "Si cursa enseñanzas profesionales de Música o Danza, es deportista de alto nivel o tiene circunstancias especiales",
+        "Cuando el centro educativo así lo determine",
+        "Si desea obtener doble titulación en Humanidades y Ciencias Sociales"
       ],
       "respuesta_correcta": 1
     },
@@ -148,10 +148,10 @@
       "id": 90,
       "pregunta": "Según el artículo 13 del Decreto 64/2022, ¿qué características deben cumplir todos los centros respecto a las materias optativas del Bachillerato?",
       "opciones": [
-        "Es una evaluación Ofrecer únicamente optativas relacionadas con la modalidad que imparten.",
-        "Es una evaluación Permitir que el alumnado escoja, al menos, una asignatura específica de cualquier modalidad como optativa.",
-        "Es una evaluación Incluir optativas solo en segundo curso.",
-        "Es una evaluación Ofrecer únicamente la Segunda Lengua Extranjera como materia optativa."
+        "Ofrecer únicamente optativas relacionadas con la modalidad que imparten.",
+        "Permitir que el alumnado escoja, al menos, una asignatura específica de cualquier modalidad como optativa.",
+        "Incluir optativas solo en segundo curso.",
+        "Ofrecer únicamente la Segunda Lengua Extranjera como materia optativa."
       ],
       "respuesta_correcta": 1
     },
