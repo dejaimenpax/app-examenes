@@ -1,0 +1,49 @@
+{
+  "tema": "Tema 5: Los servicios complementarios",
+  "preguntas": [
+    {
+      "id": 62,
+      "pregunta": "¿Qué son las actividades extraescolares de los centros?",
+      "opciones": [
+        "Son las actividades que se llevan a cabo por el centro en un curso escolar.",
+        "Las establecidas por el centro que se realicen en el intervalo de tiempo comprendido entre la sesión de mañana y de tarde del horario de permanencia en el mismo de los alumnos, así como las que se realicen antes o después del citado horario.",
+        "Son las actividades establecidas por el centro con carácter gratuito dentro del horario de permanencia obligada de los alumnos en el mismo y como complemento de la actividad escolar, en las que pueda participar el conjunto de los alumnos del grupo.",
+        "Son las actividades que se llevan a cabo por el centro junto a otros centros de la zona en un curso escolar."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 63,
+      "pregunta": "¿Qué son las actividades complementarias de los centros?",
+      "opciones": [
+        "Son las actividades que se llevan a cabo por el centro en un curso escolar.",
+        "Son las actividades que se llevan a cabo por el centro junto a otros centros de la zona en un curso escolar",
+        "Las establecidas por el centro que se realicen en el intervalo de tiempo comprendido entre la sesión de mañana y de tarde del horario de permanencia en el mismo de los alumnos, así como las que se realicen antes o después del citado horario.",
+        "Son las actividades establecidas por el centro con carácter gratuito dentro del horario de permanencia obligada de los alumnos en el mismo y como complemento de la actividad escolar, en las que pueda participar el conjunto de los alumnos del grupo."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 64,
+      "pregunta": "El servicio de comedor escolar tiene un carácter:",
+      "opciones": [
+        "Educativo ya que se incluye en una Programación de la Actividades de Comedor que está incluida dentro de las Programaciones Didácticas",
+        "Asistencial, social así como educativo. Además es necesaria una Programación de la Actividades de Comedor que está incluida dentro de la PGA",
+        "pero no carácter educativo. Además es necesaria una Programación de la Actividades de Comedor que está incluida dentro de la PGA",
+        "Gratuito para todos los profesores del centro y con unas cuotas diferenciadas a los alumnos según su renta per cápita."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 65,
+      "pregunta": "El servicio de comedor escolar es:",
+      "opciones": [
+        "Gratuito para todos los profesores del centro y con unas cuotas diferenciadas a los alumnos según su renta per cápita.",
+        "Un servicio destinado a todos los alumnos del centro y al profesorado. Así mismo cuando un alumno haga uso del comedor, sin consumir el menú tendrá que abonar el coste correspondiente a la utilización del comedor.",
+        "Un servicio destinado a todos los alumnos del centro pero no al profesorado. Así mismo cuando un alumno haga uso del comedor, sin consumir el menú tendrá que abonar el coste correspondiente a la utilización del comedor.",
+        "Un servicio destinado a todos los alumnos del centro pero no al profesorado. Así mismo cuando un alumno haga uso del comedor, sin consumir el menú no tendrá que abonar el coste correspondiente a la utilización del comedor."
+      ],
+      "respuesta_correcta": 1
+    }
+  ]
+}

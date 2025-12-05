@@ -1,0 +1,104 @@
+{
+  "tema": "Tema 4: Convivencia escolar en los centros educativos",
+  "preguntas": [
+    {
+      "id": 53,
+      "pregunta": "El Plan de Convivencia lo elabora:",
+      "opciones": [
+        "La comisión de convivencia con la participación efectiva, en el seno del Consejo Escolar, de todos los sectores de la comunidad educativa",
+        "El Equipo Directivo del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Claustro de profesores del centro menos los aspectos educativos que los aprueba y evalúa el Director."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 54,
+      "pregunta": "El Plan de Convivencia lo aprueba:",
+      "opciones": [
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Director del centro, siendo informado previamente por el Claustro de profesores y el Consejo Escolar",
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Claustro de profesores del centro menos los aspectos educativos que los aprueba y evalúa el Director."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 55,
+      "pregunta": "Las faltas de disciplina recogidas en el Reglamento de Régimen Interior se corrigen:",
+      "opciones": [
+        "Cuando los alumnos las realicen en el recinto escolar o durante la realización de actividades complementarias y extraescolares y servicios educativos complementarios.",
+        "Cuando los alumnos las realicen en el recinto escolar o durante la realización de actividades complementarias y extraescolares y servicios educativos complementarios y también cuando se producen fuera del recinto escolar.",
+        "Cuando los alumnos las realicen en el recinto escolar o durante la realización de actividades complementarias y extraescolares y servicios educativos complementarios y también cuando se producen fuera del recinto escolar siempre y cuando tengan su origen o estén directamente relacionadas con la actividad escolar o afecten a los miembros de la comunidad educativa.",
+        "Cuando los alumnos las realicen en el recinto escolar o durante la realización de actividades extraescolares y servicios educativos complementarios y también cuando se producen fuera del recinto escolar siempre y cuando tengan su origen o estén directamente relacionadas con la actividad escolar o afecten a los miembros de la comunidad educativa"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 56,
+      "pregunta": "Los rasgos que determinan la existencia de acoso son:",
+      "opciones": [
+        "La intención de dañar, el desequilibrio de poder y las amenazas.",
+        "La reiteración, la intención de dañar y el desequilibrio de poder.",
+        "Las vejaciones físicas o verbales, la intención de dañar y la reiteración.",
+        "La reiteración, las amenazas y el desequilibrio de poder entre la víctima y el acosador."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 57,
+      "pregunta": "Los principales indicadores para reconocer el acoso en la víctima son:",
+      "opciones": [
+        "La mejora de la autoestima, la modificación del carácter (retraimiento), la pérdida de interés por la escuela, un brusco descenso en el rendimiento escolar.",
+        "La pérdida de confianza en sí mismo, el aislamiento, el reclamo de la atención del grupo interrumpiendo y si reciben agresiones, reaccionan agrediendo.",
+        "La pérdida de confianza en sí mismo, la modificación del carácter (extrovertido), la pérdida de interés por la escuela, una mejora en el rendimiento escolar",
+        "La pérdida de confianza en sí mismo, el reforzamiento del carácter (retraimiento), la pérdida de interés por la escuela, un brusco descenso en el rendimiento escolar."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 58,
+      "pregunta": "El acoso escolar es calificado:",
+      "opciones": [
+        "Como falta grave en el art. 124 de la Ley Orgánica 2/2006, de 3 de mayo de Educación, y aparece tipificada como tal en el Decreto Decreto 32/2019, de 9 de abril, por el que se establece el marco regulador de la convivencia en los centros docentes de la Comunidad de Madrid, por lo que el centro, en el caso de encontrar evidencias, actuará disciplinariamente de acuerdo con el Decreto precitado.",
+        "Como falta leve en el art. 124 de la Ley Orgánica 2/2006, de 3 de mayo de Educación, y aparece tipificada como tal en el Decreto 32/2019, de 9 de abril, por el que se establece el marco regulador de la convivencia en los centros docentes de la Comunidad de Madrid, por lo que el centro, en el caso de encontrar evidencias, actuará disciplinariamente de acuerdo con el Decreto precitado.",
+        "Como falta muy grave en el art. 124 de la Ley Orgánica 2/2006, de 3 de mayo de Educación, y aparece tipificada como tal en el Decreto 32/2019, de 9 de abril, por el que se establece el marco regulador de la convivencia en los centros docentes de la Comunidad de Madrid, por lo que el centro, en el caso de encontrar evidencias, lo notificará a la fiscalía de menores.",
+        "Como falta muy grave en el art. 124 de la Ley Orgánica 2/2006, de 3 de mayo de Educación, y aparece tipificada como tal en el Decreto 32/2019, de 9 de abril, por el que se establece el marco regulador de la convivencia en los centros docentes de la Comunidad de Madrid (art. 14. 1.b), por lo que el centro, en el caso de encontrar evidencias, actuará disciplinariamente de acuerdo con el Decreto precitado."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 59,
+      "pregunta": "El órgano u órganos competentes para la adopción de medidas correctoras de las faltas leves será:",
+      "opciones": [
+        "Cualquier profesor, dando cuenta al tutor y al jefe de estudios",
+        "El Tutor y profesores del alumno (art. 34.2. letras a) y b)); el Jefe de Estudios y Director, oído el tutor (art. 34.2. letras c) y d)) y el Director, oído el tutor (art. 34.2 letras e) y f))",
+        "Únicamente el Director.",
+        "El director y el Jefe de estudios."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 60,
+      "pregunta": "El órgano u órganos competentes para la adopción de medidas correctoras de las faltas graves será:",
+      "opciones": [
+        "Cualquier profesor, dando cuenta al tutor y al jefe de estudios",
+        "El Tutor y profesores del alumno (art. 34.2. letras a) y b)); el Jefe de Estudios y Director, oído el tutor (art. 34.2. letras c) y d)) y el Director, oído el tutor (art. 34.2 letras e) y f))",
+        "Únicamente el Director.",
+        "El director y el Jefe de estudios."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 61,
+      "pregunta": "El órgano u órganos competentes para la adopción de medidas correctoras de las faltas muy graves será:",
+      "opciones": [
+        "Cualquier profesor, dando cuenta al tutor y al jefe de estudios",
+        "El Tutor y profesores del alumno (art. 34.2. letras a) y b)); el Jefe de Estudios y Director, oído el tutor (art. 34.2. letras c) y d)) y el Director, oído el tutor (art. 34.2 letras e) y f))",
+        "Únicamente el Director.",
+        "El Director y el Jefe de estudios."
+      ],
+      "respuesta_correcta": 2
+    }
+  ]
+}

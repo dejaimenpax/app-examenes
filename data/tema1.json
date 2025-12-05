@@ -1,4 +1,5 @@
 {
+  "tema": "Tema 1: Introducción al Sistema Educativo",
   "preguntas": [
     {
       "id": 1,
@@ -35,6 +36,50 @@
     },
     {
       "id": 4,
+      "pregunta": "El objetivo de Desarrollo Sostenible (ODS) número cuatro consiste en \"Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos\". Eslovenia puso en marcha un programa destinado a mejorar la calidad de la enseñanza y la experiencia de los estudiantes a través de:",
+      "opciones": [
+        "Permitir a los adultos sin educación secundaria superior —incluidos aquellos con una cualificación profesional de nivel inferior que haya quedado obsoleta en el mercado laboral— obtener el reconocimiento de créditos en atención a su experiencia o formación profesional anterior y emprender un itinerario de formación personalizado.",
+        "Ofrecer a los profesores y a los tutores oportunidades de aumentar sus conocimientos, capacidades y competencias mediante la rotación en los puestos de trabajo.",
+        "Ofrecer una educación complementaria, voluntaria y orientada a la sociedad a los adolescentes vulnerables de los barrios desfavorecidos.",
+        "Ofrecer al alumnado con discapacidad recibir formación en el sector de la electrónica, el sector eléctrico y el de la ingeniería eléctrica. La mitad de estas iniciativas de formación se desarrollarán en las instalaciones de la empresa eléctrica Enedis, mientras que la otra mitad lo hará en empresas adaptadas."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 5,
+      "pregunta": "El objetivo de Desarrollo Sostenible (ODS) número cuatro consiste en \"Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos\". Una iniciativa en la Región del Véneto (Italia) puso en marcha un programa a través de:",
+      "opciones": [
+        "Permitir a los adultos sin educación secundaria superior —incluidos aquellos con una cualificación profesional de nivel inferior que haya quedado obsoleta en el mercado laboral— obtener el reconocimiento de créditos en atención a su experiencia o formación profesional anterior y emprender un itinerario de formación personalizado.",
+        "Ofrecer a los profesores y a los tutores oportunidades de aumentar sus conocimientos, capacidades y competencias mediante la rotación en los puestos de trabajo.",
+        "Ofrecer una educación complementaria, voluntaria y orientada a la sociedad a los adolescentes vulnerables de los barrios desfavorecidos.",
+        "Ofrecer al alumnado con discapacidad recibir formación en el sector de la electrónica, el sector eléctrico y el de la ingeniería eléctrica. La mitad de estas iniciativas de formación se desarrollarán en las instalaciones de la empresa eléctrica Enedis, mientras que la otra mitad lo hará en empresas adaptadas."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 6,
+      "pregunta": "El objetivo de Desarrollo Sostenible (ODS) número cuatro consiste en \"Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos\". Francia firmó un acuerdo tripartito para la apertura de una sección de aprendizaje inclusivo a través de:",
+      "opciones": [
+        "Permitir a los adultos sin educación secundaria superior —incluidos aquellos con una cualificación profesional de nivel inferior que haya quedado obsoleta en el mercado laboral— obtener el reconocimiento de créditos en atención a su experiencia o formación profesional anterior y emprender un itinerario de formación personalizado.",
+        "Ofrecer a los profesores y a los tutores oportunidades de aumentar sus conocimientos, capacidades y competencias mediante la rotación en los puestos de trabajo.",
+        "Ofrecer una educación complementaria, voluntaria y orientada a la sociedad a los adolescentes vulnerables de los barrios desfavorecidos.",
+        "Ofrecer al alumnado con discapacidad recibir formación en el sector de la electrónica, el sector eléctrico y el de la ingeniería eléctrica. La mitad de estas iniciativas de formación se desarrollarán en las instalaciones de la empresa eléctrica Enedis, mientras que la otra mitad lo hará en empresas adaptadas."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 7,
+      "pregunta": "El objetivo de Desarrollo Sostenible (ODS) número cuatro consiste en \"Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos\". La asociación \"TADA\" afincada en Bélgica busca empoderar a sus jóvenes participantes y prevenir la desmotivación y sus consecuencias negativas además de contribuir a una mayor integración y cohesión social a través de:",
+      "opciones": [
+        "Permitir a los adultos sin educación secundaria superior —incluidos aquellos con una cualificación profesional de nivel inferior que haya quedado obsoleta en el mercado laboral— obtener el reconocimiento de créditos en atención a su experiencia o formación profesional anterior y emprender un itinerario de formación personalizado.",
+        "Ofrecer a los profesores y a los tutores oportunidades de aumentar sus conocimientos, capacidades y competencias mediante la rotación en los puestos de trabajo.",
+        "Ofrecer una educación complementaria, voluntaria y orientada a la sociedad a los adolescentes vulnerables de los barrios desfavorecidos.",
+        "Ofrecer al alumnado con discapacidad recibir formación en el sector de la electrónica, el sector eléctrico y el de la ingeniería eléctrica. La mitad de estas iniciativas de formación se desarrollarán en las instalaciones de la empresa eléctrica Enedis, mientras que la otra mitad lo hará en empresas adaptadas."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 8,
       "pregunta": "¿Qué libertades y derechos se consagran en el artículo 27 de la Constitución Española?:",
       "opciones": [
         "Libertad de enseñanza, derecho a la educación y autonomía universitaria.",
@@ -45,7 +90,7 @@
       "respuesta_correcta": 0
     },
     {
-      "id": 5,
+      "id": 9,
       "pregunta": "¿Con qué instrumentos cuenta el Sistema Educativo para la consecución de sus fines?:",
       "opciones": [
         "El Consejo Escolar del Estado, la Conferencia Sectorial de Educación, el Sistema de Información Educativa y el Sistema Estatal de Becas y Ayudas.",
@@ -56,7 +101,7 @@
       "respuesta_correcta": 2
     },
     {
-      "id": 6,
+      "id": 10,
       "pregunta": "La Educación básica la constituyen:",
       "opciones": [
         "La Educación Infantil, la Educación Primaria y la Educación Secundaria Obligatoria",
@@ -67,18 +112,7 @@
       "respuesta_correcta": 3
     },
     {
-      "id": 7,
-      "pregunta": "Los ciclos de Formación Profesional Básica serán:",
-      "opciones": [
-        "De oferta voluntaria y carácter gratuito.",
-        "De oferta obligatoria y carácter básico.",
-        "Una forma de garantizar el derecho a la educación de quienes no puedan asistir de modo regular a los centros docentes",
-        "De oferta obligatoria y carácter gratuito."
-      ],
-      "respuesta_correcta": 3
-    },
-    {
-      "id": 8,
+      "id": 11,
       "pregunta": "La Educación Superior está constituida por:",
       "opciones": [
         "La enseñanza universitaria, las enseñanzas artísticas superiores, la formación profesional de Grado Superior, las enseñanzas profesionales de artes plásticas y diseño de grado superior y las enseñanzas deportivas de grado superior.",
@@ -89,51 +123,84 @@
       "respuesta_correcta": 0
     },
     {
-      "id": 9,
-      "pregunta": "La Educación Infantil es:",
-      "opciones": [
-        "De carácter obligatorio, engloba dos ciclos y tendrá un carácter educativo.",
-        "De carácter voluntario, engloba tres ciclos y tendrá un carácter educativo.",
-        "De carácter voluntario, engloba dos ciclos y tendrá un carácter informal.",
-        "De carácter voluntario, engloba dos ciclos y tendrá un carácter educativo."
-      ],
-      "respuesta_correcta": 3
-    },
-    {
-      "id": 10,
-      "pregunta": "La Educación Primaria:",
-      "opciones": [
-        "Comprende dos ciclos de tres años académicos cada uno y se organiza en áreas, que tendrán un carácter global e integrador, orientadas al desarrollo de las competencias del alumnado.",
-        "Comprende tres ciclos de dos años académicos cada uno y se organiza en asignaturas, que tendrán un carácter global e integrador, orientadas al desarrollo de las competencias del alumnado.",
-        "Comprende tres ciclos de dos años académicos cada uno y se organiza en áreas, que tendrán un carácter global e integrador, orientadas al desarrollo de las competencias del alumnado",
-        "Comprende tres ciclos de dos años académicos cada uno y se organiza en áreas, que tendrán un carácter parcial y separado, orientadas al desarrollo de las competencias del alumnado."
-      ],
-      "respuesta_correcta": 2
-    },
-    {
-      "id": 11,
-      "pregunta": "La Educación Secundaria Obligatoria consta de:",
-      "opciones": [
-        "Comprende dos ciclos de cuatro años cada uno y se organiza en materias obligatorias y optativas.",
-        "Comprende cuatro cursos y se organiza en materias obligatorias y de libre configuración autonómica.",
-        "Comprende cuatro cursos y se organiza en materias obligatorias y materias optativas.",
-        "Comprende tres ciclos de dos años académicos cada uno y se organiza en áreas obligatorias y optativas."
-      ],
-      "respuesta_correcta": 2
-    },
-    {
       "id": 12,
-      "pregunta": "En la Educación Secundaria Obligatoria:",
+      "pregunta": "La evaluación inicial en la ESO:",
       "opciones": [
-        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta expresión oral y escrita y el uso de las matemáticas. A fin de promover el hábito de la lectura, se dedicará un tiempo a la misma en la materia de lengua castellana y literatura.",
-        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta expresión oral y escrita y el uso de las matemáticas. A fin de promover el hábito de la lectura, se dedicará un tiempo a la misma en la práctica docente de todas las materias.",
-        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta expresión oral y escrita y el uso de las ciencias. A fin de promover el hábito de la lectura, se dedicará un tiempo a la misma en la práctica docente de todas las materias.",
-        "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas y se fomentará la correcta dedicación de un tiempo al hábito de la lectura en todas las materias."
+        "Proporcionará información para que el equipo docente adopte decisiones en relación con la elaboración, revisión y modificación de la programación general anual, adecuándose, de esta forma, a las características, nivel de adquisición de competencias y conocimientos del alumnado.",
+        "Proporcionará información para que el tutor docente adopte decisiones en relación a la ubicación del alumnado en la clase y para que la jefatura de estudios modifique las programaciones didácticas.",
+        "Proporcionará información para que el equipo docente adopte decisiones en relación con la elaboración, revisión y modificación de las programaciones didácticas, adecuándose, de esta forma, a las características, nivel de adquisición de competencias y conocimientos del alumnado.",
+        "Proporcionará información a las familias del alumnado para que puedan valorar el conocimiento de sus hijos."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 13,
+      "pregunta": "Los centros establecerán en sus proyectos educativos:",
+      "opciones": [
+        "Las líneas principales de la orientación educativa, que concretarán cada curso en el plan de acción tutorial que formará parte de la programación general anual.",
+        "Las líneas principales de la acción tutorial, que concretarán cada curso en el plan de acción tutorial que formará parte de las programaciones didácticas.",
+        "Las líneas principales de la acción tutorial, que concretarán cada curso en el plan de acción tutorial que formará parte de la programación general anual.",
+        "Las líneas principales de las programaciones didácticas para su modificación en la Memoria final de curso."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 14,
+      "pregunta": "Las Enseñanzas de Educación Infantil constituyen:",
+      "opciones": [
+        "Una etapa educativa con identidad propia (desde los 0 a los 6 años) de carácter voluntario y gratuito el primer y el segundo ciclo.",
+        "Una etapa educativa con identidad propia (desde los 0 a los 6 años) de carácter obligatorio y gratuito el 2º ciclo.",
+        "Una etapa educativa con identidad propia (desde los 0 a los 6 años) de carácter voluntario y gratuito el 2º ciclo.",
+        "Una etapa educativa sin identidad propia (desde los 0 a los 6 años) de carácter voluntario que se imparte en escuelas municipales"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 15,
+      "pregunta": "El Principio fundamental de la Educación Básica es:",
+      "opciones": [
+        "La Atención a la Diversidad y comprende 12 años de escolaridad obligatoria",
+        "La Atención a la Diversidad y comprende 10 años de escolaridad obligatoria",
+        "La Atención al Alumnado con Necesidades Educativas Especiales y comprende 12 años de escolaridad obligatoria",
+        "La Atención al Alumnado con Necesidades Educativas Especiales y comprende 10 años de escolaridad obligatoria"
       ],
       "respuesta_correcta": 1
     },
     {
-      "id": 13,
+      "id": 16,
+      "pregunta": "Las Enseñanzas de Educación Primaria se organizan en:",
+      "opciones": [
+        "La etapa de educación primaria comprende tres ciclos de dos años académicos cada uno y se organiza en áreas, que tendrán un carácter global e integrador.",
+        "La etapa de educación primaria comprende dos ciclos de dos años académicos cada uno y se organiza en áreas, que tendrán un carácter global e integrador",
+        "La etapa de educación primaria comprende tres ciclos de cuatro años académicos cada uno y se organiza en áreas, que tendrán un carácter global e integrador.",
+        "La etapa de educación primaria comprende tres ciclos de dos años académicos cada uno y se organiza en áreas, que tendrán un carácter individual e integrador."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 17,
+      "pregunta": "La Educación Secundaria Obligatoria comprende:",
+      "opciones": [
+        "Cuatro cursos, que se seguirán ordinariamente entre los doce y los dieciséis años de edad y se pondrá especial atención en la potenciación del aprendizaje de carácter significativo para el desarrollo de las competencias que promuevan la autonomía y la reflexión.",
+        "Cuatro cursos, que se seguirán ordinariamente entre los doce y los dieciséis años de edad y se pondrá especial atención en la potenciación del aprendizaje de carácter memorístico para el desarrollo de las competencias que promuevan la autonomía y la reflexión.",
+        "Cuatro ciclos, que se seguirán ordinariamente entre los doce y los dieciséis años de edad y se pondrá especial atención en la potenciación del aprendizaje de carácter significativo para el desarrollo de las competencias que promuevan la autonomía y la reflexión.",
+        "Cuatro cursos, que se seguirán ordinariamente entre los diez y los dieciséis años de edad y se pondrá especial atención en la potenciación del aprendizaje de carácter significativo para el desarrollo de las competencias que promuevan la autonomía y la reflexión."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 18,
+      "pregunta": "En la Educación Secundaria Obligatoria:",
+      "opciones": [
+        "Los alumnos incluirán en su tiempo de estudio de cada materia la dedicación de un tiempo del horario lectivo a la lectura y para la realización de proyectos significativos y relevantes y a la resolución colaborativa de problemas.",
+        "Los centros incluirán en la programación general anual de cada materia la dedicación de un tiempo del horario lectivo a la lectura y para la realización de proyectos significativos y relevantes y a la resolución colaborativa de problemas.",
+        "Los centros incluirán en las programaciones didácticas de cada materia la dedicación de un tiempo del horario lectivo a la lectura y para la realización de proyectos significativos y relevantes y a la resolución colaborativa de problemas.",
+        "Los centros incluirán en las memorias anuales de cada materia la dedicación de un tiempo del horario lectivo a la lectura y para la realización de proyectos significativos y relevantes y a la resolución colaborativa de problemas."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 19,
       "pregunta": "En la Educación Secundaria Obligatoria, el Consejo Orientador se entregará:",
       "opciones": [
         "Al finalizar el segundo y el tercer curso de la Educación Secundaria Obligatoria y al finalizar la etapa o, en su caso, al concluir la escolarización.",
@@ -141,10 +208,10 @@
         "Al finalizar todos los cursos de la Educación Secundaria Obligatoria o, en su caso, al concluir la escolarización.",
         "Al finalizar la Educación Secundaria Obligatoria o, en su caso, al concluir la escolarización."
       ],
-      "respuesta_correcta": 0
+      "respuesta_correcta": 2
     },
     {
-      "id": 14,
+      "id": 20,
       "pregunta": "Al programa de diversificación curricular se accede:",
       "opciones": [
         "Al finalizar el segundo curso, el alumno o alumna podrá promocionar a tercero ordinario o a diversificación curricular, una vez oído el propio alumno o alumna y sus padres, madres o tutores legales, a un programa de diversificación curricular, tras la oportuna evaluación.",
@@ -152,10 +219,10 @@
         "Al finalizar el segundo curso, quienes no estén en condiciones de promocionar a tercero podrán incorporarse, una vez oído el propio alumno o alumna y sus padres, madres o tutores legales, a un programa de diversificación curricular, tras la oportuna evaluación.",
         "Al finalizar el primer curso, quienes no estén en condiciones de promocionar a tercero podrán incorporarse, una vez oído el propio alumno o alumna y sus padres, madres o tutores legales, a un programa de diversificación curricular, tras la oportuna evaluación."
       ],
-      "respuesta_correcta": 0
+      "respuesta_correcta": 2
     },
     {
-      "id": 15,
+      "id": 21,
       "pregunta": "En la Educación Secundaria Obligatoria las medidas ordinarias podrán aplicarse:",
       "opciones": [
         "A todo el alumnado del centro, en función de sus necesidades educativas.",
@@ -166,7 +233,7 @@
       "respuesta_correcta": 0
     },
     {
-      "id": 16,
+      "id": 22,
       "pregunta": "A las enseñanzas de Bachillerato se podrá acceder con:",
       "opciones": [
         "El título de Formación Profesional Básica.",
@@ -177,7 +244,7 @@
       "respuesta_correcta": 2
     },
     {
-      "id": 17,
+      "id": 25,
       "pregunta": "¿Cuántas modalidades hay de bachillerato en la LOMLOE?",
       "opciones": [
         "Cuatro (General, Tecnología, Humanidades y Ciencias Sociales y Artes).",
@@ -188,7 +255,7 @@
       "respuesta_correcta": 3
     },
     {
-      "id": 18,
+      "id": 26,
       "pregunta": "¿En cuántos cursos se organiza el actual bachillerato?:",
       "opciones": [
         "Dos",
@@ -199,7 +266,7 @@
       "respuesta_correcta": 1
     },
     {
-      "id": 19,
+      "id": 27,
       "pregunta": "En Bachillerato para que un alumno promocione de curso:",
       "opciones": [
         "La Junta de Profesores decidirá si el alumno ha logrado los objetivos y ha alcanzado las competencias.",
@@ -210,7 +277,7 @@
       "respuesta_correcta": 1
     },
     {
-      "id": 20,
+      "id": 28,
       "pregunta": "La Formación Profesional comprende:",
       "opciones": [
         "Los ciclos formativos de Formación Profesional Básica, Formación Profesional de Grado Medio, la Formación Profesional de Grado Superior y los cursos de especialización.",
@@ -221,7 +288,7 @@
       "respuesta_correcta": 0
     },
     {
-      "id": 21,
+      "id": 29,
       "pregunta": "¿Qué diferencias existen entre los ciclos formativos de grado medio y de grado superior?:",
       "opciones": [
         "Las diferencias consisten en el número de módulos/asignaturas que lo componen.",
@@ -232,7 +299,7 @@
       "respuesta_correcta": 2
     },
     {
-      "id": 22,
+      "id": 30,
       "pregunta": "Las Enseñanzas de Personas adultas sólo podrán ser cursadas por:",
       "opciones": [
         "Únicamente podrán ser cursadas por personas mayores de 18 años y excepcionalmente los mayores de 16",
@@ -243,59 +310,15 @@
       "respuesta_correcta": 3
     },
     {
-      "id": 23,
+      "id": 31,
       "pregunta": "En la ESO, la evaluación de diagnóstico de las competencias alcanzadas por el alumnado se realizará:",
       "opciones": [
-        "Al finalizar 1º y 2º de la ESO.",
+        "Al finalizar 6º de Primaria y 2º de la ESO.",
         "Al finalizar 2º de la ESO.",
         "Al finalizar 2º de la ESO y al finalizar el Bachillerato.",
         "Al finalizar 2º y 4º de la ESO."
       ],
       "respuesta_correcta": 1
-    },
-    {
-      "id": 24,
-      "pregunta": "¿Cuáles son los tipos de AUTONOMÍA en los centros docentes públicos?:",
-      "opciones": [
-        "La libertad de cátedra, curricular y pedagógica, y organizativa.",
-        "La económica, curricular y pedagógica, organizativa y de gestión de personal.",
-        "La libertad de cátedra, curricular y pedagógica, organizativa y de gestión de personal.",
-        "La libertad de cátedra, curricular y pedagógica, económica y de gestión de personal."
-      ],
-      "respuesta_correcta": 1
-    },
-    {
-      "id": 25,
-      "pregunta": "La autonomía económica de los centros públicos permite:",
-      "opciones": [
-        "Gestionar los recursos financieros aportados por las familias para los gastos ordinarios.",
-        "Gestionar los recursos financieros aportados por la Administración y por las familias para los gastos ordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios.",
-        "Gestionar los recursos financieros aportados por la Administración para los gastos extraordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios.",
-        "Gestionar los recursos financieros aportados por la Administración para los gastos ordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios."
-      ],
-      "respuesta_correcta": 3
-    },
-    {
-      "id": 26,
-      "pregunta": "La autonomía pedagógica y curricular reconoce al centro y a los profesores:",
-      "opciones": [
-        "La capacidad de decisión por parte del centro y de los docentes acerca de qué, cómo y cuándo enseñar.",
-        "La capacidad de decisión por parte del centro y de los docentes acerca de qué y cómo enseñar.",
-        "Se refiere a la autonomía del profesorado para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado.",
-        "Se refiere a la autonomía del centro para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado y la distribución de tareas del profesorado."
-      ],
-      "respuesta_correcta": 1
-    },
-    {
-      "id": 27,
-      "pregunta": "La autonomía organizativa se refiere a:",
-      "opciones": [
-        "Se refiere a la autonomía del centro para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado y la distribución de tareas del profesorado.",
-        "Se refiere a la autonomía del profesorado para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado.",
-        "La capacidad de decisión por parte del centro y de los docentes acerca de qué y cómo enseñar.",
-        "La capacidad de decisión por parte del centro y de los docentes acerca de qué, cómo y cuándo enseñar."
-      ],
-      "respuesta_correcta": 2
     }
   ]
 }

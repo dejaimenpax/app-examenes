@@ -1,0 +1,181 @@
+{
+  "tema": "Legislación",
+  "preguntas": [
+    {
+      "id": 77,
+      "pregunta": "¿En qué documentos se basa el marco legal para la atención a la diversidad del alumnado en la etapa educativa de la ESO?",
+      "opciones": [
+        "Decreto 29/2021 y Orden 72/202",
+        "Decreto 65/2022 y Orden 34/2019",
+        "Decreto 23/2023 y Decreto 65/2022",
+        "Real Decreto 1105/2014 y Ley Orgánica 3/2020"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 78,
+      "pregunta": "¿Quién debe firmar el acta de evaluación?",
+      "opciones": [
+        "Solo el director del centro",
+        "El tutor y el equipo docente",
+        "El jefe de estudios y el orientador",
+        "El tutor y el secretario del centro"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 79,
+      "pregunta": "¿Cuál es la ratio máxima en la ESO de la Comunidad de Madrid?",
+      "opciones": [
+        "Primero segundo y tercero, 25 alumnos y cuarto, 30 alumnos",
+        "Todos los cursos de 30 alumnos",
+        "Primero y segundo, 25 alumnos y tercero y cuarto, 30 alumnos",
+        "Primero segundo y tercero, 30 alumnos y cuarto, 25 alumnos"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 80,
+      "pregunta": "¿Cómo debe ser la evaluación en la ESO?",
+      "opciones": [
+        "Final, sumativa y excluyente.",
+        "Puntual, objetiva y clasificadora",
+        "Continua, formativa e integradora",
+        "Trimestral, acumulativa y selectiva"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 81,
+      "pregunta": "¿Qué cursos pueden ordenarse por ámbitos?",
+      "opciones": [
+        "3º y 4º",
+        "Solo 1º",
+        "Todos los cursos de la ESO",
+        "1º y 2º"
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 82,
+      "pregunta": "¿Qué requisitos debe tener un profesor para ser tutor?",
+      "opciones": [
+        "Dar clase al grupo y tener una formación en orientación educativa",
+        "Ser funcionario de carrera con más de cinco años de experiencia",
+        "Impartir clase a ese grupo, tener mayor carga de horas de docencia en ese grupo e impartir clase al grupo de referencia al completo",
+        "Impartir clase a ese grupo, tener menor carga de horas de docencia en ese grupo e impartir clase al grupo de referencia al completo"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 83,
+      "pregunta": "¿Qué tipos de Medidas Educativas Ordinarias (MEO) hay?",
+      "opciones": [
+        "Agrupamientos flexibles, desdoblamiento en grupos, desdoblamientos de grupos, planes de refuerzo, materias integradas en ámbitos.",
+        "Evaluación psicopedagógica, intervención del orientador, derivación a servicios externos",
+        "Agrupamientos flexibles, desdoblamiento en grupos, planes de refuerzo, materias divididas en ámbitos",
+        "Suspensión temporal de materias, agrupamiento por nivel, eliminación de asignaturas"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 84,
+      "pregunta": "¿Puede un alumno titular con asignaturas suspensas?",
+      "opciones": [
+        "Sí, pero solo si las asignaturas suspensas son optativas",
+        "Solo si tiene menos de tres suspensos",
+        "Sí, si el equipo docente cree que ha alcanzado los objetivos y competencias",
+        "No, debe aprobar todas para titular"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 85,
+      "pregunta": "¿Cuál es el objeto principal del Decreto 64/2022?",
+      "opciones": [
+        "Establecer la ordenación y el currículo de la etapa de la ESO y el Bachillerato en la Comunidad de Madrid.",
+        "Establecer la ordenación y el currículo de la etapa de Bachillerato en la Comunidad de Madrid.",
+        "Fijar las tasas económicas para los centros educativos de Madrid.",
+        "Regular únicamente la evaluación en el Bachillerato de la Comunidad de Madrid."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 86,
+      "pregunta": "¿Cuántas modalidades de Bachillerato se organizan según el Decreto 64/2022?",
+      "opciones": [
+        "Tres: Ciencias, Humanidades y Artes.",
+        "Cuatro: Artes (con dos vías), Ciencias y Tecnología, General y Humanidades y Ciencias Sociales.",
+        "Cuatro: Artes, Música, Ciencias y Humanidades.",
+        "Dos: Ciencias y Letras"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 87,
+      "pregunta": "¿Cómo se estructura la evaluación del alumnado en el Bachillerato según el decreto 64/2022?",
+      "opciones": [
+        "Es una evaluación extraordinaria al final de cada curso.",
+        "La evaluación la decide exclusivamente el profesor sin coordinación con otros docentes.",
+        "Es continua y diferenciada según las materias, y se realiza con al menos tres sesiones de evaluación por curso.",
+        "Es una evaluación final de cada curso."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 88,
+      "pregunta": "En el Anexo II del Decreto 64/2022, ¿qué estructura común siguen los currículos de las materias?",
+      "opciones": [
+        "Es una evaluación Introducción, contenidos, metodología y bibliografía.",
+        "Es una evaluación Descripción inicial, competencias específicas, criterios de evaluación y contenidos.",
+        "Es una evaluación Competencias generales, metodología y objetivos.",
+        "Es una evaluación Descripción de la materia y criterios de evaluación."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 89,
+      "pregunta": "De acuerdo con el artículo 14 del Decreto 64/2022, ¿en qué casos puede un alumno cursar el Bachillerato en tres años?",
+      "opciones": [
+        "Es una evaluación Cuando no alcanza el nivel mínimo en materias troncales",
+        "Es una evaluación Si cursa enseñanzas profesionales de Música o Danza, es deportista de alto nivel o tiene circunstancias especiales",
+        "Es una evaluación Cuando el centro educativo así lo determine",
+        "Es una evaluación Si desea obtener doble titulación en Humanidades y Ciencias Sociales"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 90,
+      "pregunta": "Según el artículo 13 del Decreto 64/2022, ¿qué características deben cumplir todos los centros respecto a las materias optativas del Bachillerato?",
+      "opciones": [
+        "Es una evaluación Ofrecer únicamente optativas relacionadas con la modalidad que imparten.",
+        "Es una evaluación Permitir que el alumnado escoja, al menos, una asignatura específica de cualquier modalidad como optativa.",
+        "Es una evaluación Incluir optativas solo en segundo curso.",
+        "Es una evaluación Ofrecer únicamente la Segunda Lengua Extranjera como materia optativa."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 91,
+      "pregunta": "¿En qué condiciones promocionará un alumno a 2º de Bachillerato según el Decreto 64/2022?",
+      "opciones": [
+        "En la evaluación final aprobando todas las asignaturas menos Matemáticas",
+        "En la evaluación final aprobando todas las asignaturas menos dos.",
+        "En la evaluación final puede suspender hasta 4 y promocionar si el consejo escolar así lo considera.",
+        "En la evaluación final todas las asignaturas"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 92,
+      "pregunta": "¿Quién decide la nota de cada materia?",
+      "opciones": [
+        "el consejo escolar",
+        "el profesor que imparte la materia",
+        "el equipo docente",
+        "el claustro"
+      ],
+      "respuesta_correcta": 1
+    }
+  ]
+}

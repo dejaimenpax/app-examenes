@@ -1,0 +1,71 @@
+{
+  "tema": "Tema 7: Órganos de coordinación docente",
+  "preguntas": [
+    {
+      "id": 71,
+      "pregunta": "¿Cuáles son los Órganos colegiados de gobierno y de coordinación docente de los centros públicos?",
+      "opciones": [
+        "El Director, el Claustro de profesores y Otros órganos de coordinación docente",
+        "El Consejo escolar, el Claustro de profesores y Otros órganos de coordinación docente",
+        "El Equipo Directivo, el Claustro de Profesores y el Consejo escolar.",
+        "El Consejo escolar, el Claustro de profesores y el Departamento de Actividades Extraescolares"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 72,
+      "pregunta": "¿Cuáles son los órganos de coordinación docente en los institutos de educación secundaria de la Comunidad de Madrid:",
+      "opciones": [
+        "El Departamento de artes plásticas, ciencias naturales, educaci6n física y deportiva. Filosofía. Física y química. Frances. Geografía e historia. Griego, ingles, latín, lengua castellana y literatura. Matemáticas. Música y tecnología",
+        "El Consejo escolar, el Claustro de profesores y el Departamento de Actividades Extraescolares",
+        "El Departamento de orientación y departamento de actividades complementarias y extraescolares, los Departamentos didácticos, la Comisión de coordinación pedagógica y los Tutores y juntas de profesores de grupo.",
+        "El Departamento de actividades complementarias y extraescolares, los Departamentos didácticos, la Comisión de coordinación pedagógica y los Tutores y juntas de profesores de grupo."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 73,
+      "pregunta": "¿Quién designa al Jefe del Departamento de Orientación?",
+      "opciones": [
+        "Será designado por el Director del centro, oído el departamento, y desempeñará su cargo durante cuatro cursos académicos.",
+        "Será designado por el Claustro de profesores del centro y desempeñará su cargo durante cuatro cursos académicos.",
+        "Será designado por el Consejo Escolar del centro y desempeñará su cargo durante cuatro cursos académicos.",
+        "Será designado por el Director del centro, oído el departamento, y desempeñará su cargo durante tres cursos académicos."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 74,
+      "pregunta": "¿Cuál es la composición de la Comisión de Coordinación Pedagógica en los IES de la Comunidad de Madrid?",
+      "opciones": [
+        "Estará integrada por el Director, el Jefe de Estudios y los jefes de departamento actuando como secretario el jefe de departamento de mayor edad",
+        "Estará integrada por el Jefe de Estudios y los jefes de departamento actuando como secretario el jefe de departamento de menor edad",
+        "Estará integrada por el Director, el secretario, el responsable #CompDigEdu y los jefes de departamento actuando como secretario el jefe de departamento de menor edad",
+        "Estará integrada por el Director, el Jefe de Estudios, los jefes de departamento, el coordinador TIC, actuando como secretario el jefe de departamento de menor edad."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 75,
+      "pregunta": "¿Quién designa al tutor de cada grupo de alumnos?",
+      "opciones": [
+        "Será designado por el Director del centro, a propuesta del jefe de departamento, entre los profesores que impartan docencia al grupo.",
+        "Será designado por el Claustro de profesores del centro y por el jefe de estudios.",
+        "Será designado por el Consejo Escolar del centro, a propuesta del jefe de departamento, entre los profesores que impartan docencia al grupo.",
+        "Será designado por el Director del centro, a propuesta del jefe de estudios, entre los profesores que impartan docencia al grupo."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 76,
+      "pregunta": "¿Quién compone la Junta de Profesores de grupo?",
+      "opciones": [
+        "Estará constituida por todos los profesores que imparten docencia a los alumnos del grupo y será coordinada por su tutor",
+        "Estará constituida, al menos, por el Jefe de Estudios y los jefes de departamento actuando como coordinador el jefe de departamento de menor edad",
+        "Estará constituida por todos los profesores que imparten docencia a los alumnos del grupo y será coordinada por el jefe de estudios",
+        "Estará constituida, al menos, por el Director, el Jefe de Estudios y los jefes de departamento actuando como coordinador el jefe de departamento de menor edad."
+      ],
+      "respuesta_correcta": 0
+    }
+  ]
+}

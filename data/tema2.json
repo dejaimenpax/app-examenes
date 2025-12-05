@@ -1,0 +1,49 @@
+{
+  "tema": "Tema 2: La Autonomía pedagógica organizativa y de gestión de los centros docentes",
+  "preguntas": [
+    {
+      "id": 32,
+      "pregunta": "¿Cuáles son los tipos de AUTONOMÍA en los centros docentes públicos?:",
+      "opciones": [
+        "La libertad de cátedra, curricular y pedagógica, y organizativa.",
+        "La económica, curricular y pedagógica, organizativa y de gestión de personal.",
+        "La libertad de cátedra, curricular y pedagógica, organizativa y de gestión de personal.",
+        "La libertad de cátedra, curricular y pedagógica, económica y de gestión de personal."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 33,
+      "pregunta": "La autonomía económica de los centros públicos permite:",
+      "opciones": [
+        "Gestionar los recursos financieros aportados por las familias para los gastos ordinarios.",
+        "Gestionar los recursos financieros aportados por la Administración y por las familias para los gastos ordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios.",
+        "Gestionar los recursos financieros aportados por la Administración para los gastos extraordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios.",
+        "Gestionar los recursos financieros aportados por la Administración para los gastos ordinarios. Asimismo, se permite que cada centro pueda obtener otros complementarios."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 34,
+      "pregunta": "La autonomía curricular reconoce al centro y a los profesores:",
+      "opciones": [
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué, cómo y cuándo enseñar.",
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué y cómo enseñar.",
+        "Se refiere a la autonomía del profesorado para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado.",
+        "Se refiere a la autonomía del centro para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado y la distribución de tareas del profesorado."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 35,
+      "pregunta": "La autonomía organizativa se refiere a:",
+      "opciones": [
+        "Se refiere a la autonomía del centro para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado y la distribución de tareas del profesorado.",
+        "Se refiere a la autonomía del profesorado para adecuar su estructura a las necesidades y características del alumnado y de su entorno: la distribución de materias y tiempos, la agrupación flexible del alumnado.",
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué y cómo enseñar.",
+        "La capacidad de decisión por parte del centro y de los docentes acerca de qué, cómo y cuándo enseñar."
+      ],
+      "respuesta_correcta": 0
+    }
+  ]
+}

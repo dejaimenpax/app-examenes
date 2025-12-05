@@ -1,0 +1,60 @@
+{
+  "tema": "Tema 6: Órganos de participación de los centros",
+  "preguntas": [
+    {
+      "id": 66,
+      "pregunta": "Los institutos de educación secundaria tendrán los siguientes órganos de gobierno:",
+      "opciones": [
+        "Colegiados y unipersonales",
+        "Colegiados y de participación",
+        "No colegiados y unipersonales",
+        "Colegiados y personales"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 67,
+      "pregunta": "Los órganos colegiados de los institutos de educación secundaria están compuestos por:",
+      "opciones": [
+        "Consejo escolar del centro y claustro de profesores",
+        "Director, jefe de estudios, secretario o administrador",
+        "Director, jefe de estudios, secretario o administrador y el Consejo Escolar",
+        "Claustro de profesores y representantes de padres y madres de alumnos"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 68,
+      "pregunta": "Los órganos unipersonales de los institutos de educación secundaria están compuestos por:",
+      "opciones": [
+        "Director, jefe de estudios, secretario o administrador y, en su caso, jefe de residencia. En los institutos con un elevado número de alumnos o gran complejidad organizativa, se podrá establecer jefaturas de estudios adjuntas",
+        "Director, jefe de estudios, secretario o administrador, personal de secretaria, de hostelería y por loa auxiliares de control",
+        "Director, Consejo Escolar y Claustro de Profesores",
+        "Director, jefe de estudios, claustro de profesores y, en su caso, jefe de residencia. En los institutos con un elevado número de alumnos o gran complejidad organizativa, se podrá establecer jefaturas de estudios adjuntas"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 69,
+      "pregunta": "Los centros concertados tendrán, al menos, los siguientes órganos:",
+      "opciones": [
+        "Director, Consejo Escolar y Claustro de Profesores",
+        "Director, jefe de estudios, secretario o administrador",
+        "Director, jefe de estudios y Claustro de Profesores",
+        "Director, Jefe de estudios, Consejo Escolar y Claustro de Profesores"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 70,
+      "pregunta": "El claustro de profesores de los centros privados concertados tendrá:",
+      "opciones": [
+        "Funciones análogas a las de los centros públicos",
+        "Funciones análogas a las de los centros privados",
+        "Las funciones que le delimite el Consejo escolar",
+        "Funciones diferentes a los centros públicos ya que no tienen adquirida la condición de funcionario"
+      ],
+      "respuesta_correcta": 0
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "tema": "Tema 3: Documentos de los centros",
+  "preguntas": [
+    {
+      "id": 36,
+      "pregunta": "¿Cuáles son los documentos institucionales a largo plazo de los centros públicos?",
+      "opciones": [
+        "El Proyecto Educativo de Centro y las Programaciones Didácticas.",
+        "El Proyecto Educativo de Centro y el Reglamento de Régimen Interior",
+        "La Programación General Anual, las Programaciones Didácticas y el Proyecto de Gestión.",
+        "El Proyecto Educativo de centro y la Programación General Anual."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 37,
+      "pregunta": "¿Cuáles son los documentos institucionales a corto plazo de los centros públicos?",
+      "opciones": [
+        "El Proyecto Educativo de Centro y el Reglamento de Régimen Interior",
+        "La Programación General Anual, las Programaciones Didácticas y el Proyecto de Gestión.",
+        "La Programación General Anual, las Programaciones Didácticas y el Reglamento de Régimen Interior.",
+        "El Proyecto Educativo de centro y la Programación General Anual."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 38,
+      "pregunta": "El Proyecto Educativo de Centro lo elabora:",
+      "opciones": [
+        "El Secretario del centro con las propuestas del Director",
+        "El equipo directivo con las propuestas de los diferentes sectores de la Comunidad Educativa",
+        "El director del centro con las propuestas de los diferentes sectores de la Comunidad Educativa",
+        "El Consejo Escolar del centro con las propuestas de los diferentes sectores de la Comunidad Educativa"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 39,
+      "pregunta": "El Proyecto Educativo de Centro lo aprueba:",
+      "opciones": [
+        "El Claustro de profesores del centro menos los aspectos pedagógicos que incumben al Consejo Escolar",
+        "El Director del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Director"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 40,
+      "pregunta": "El Plan de Orientación Académico Profesional lo elabora:",
+      "opciones": [
+        "El Departamento de Formación y Orientación Laboral que sigue los criterios y las directrices de la CCP",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Consejo Escolar que sigue los criterios y las directrices de la CCP",
+        "El Equipo Directivo que sigue los criterios y las directrices de la CCP"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 41,
+      "pregunta": "El Plan de Orientación Académico Profesional lo aprueba:",
+      "opciones": [
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Claustro.",
+        "El Director que sigue los criterios y las directrices de la CCP",
+        "El Claustro de Profesores que sigue los criterios y las directrices del Departamento de Orientación."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 42,
+      "pregunta": "El Plan de Acción Tutorial lo elabora:",
+      "opciones": [
+        "El Director del centro menos los aspectos educativos que los aprueba y evalúa el Claustro de profesores.",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Equipo Directivo que sigue los criterios y las directrices de la CCP",
+        "El Director del centro menos los aspectos educativos que los aprueba y evalúa el Claustro de profesores."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 43,
+      "pregunta": "El Plan de Acción Tutorial lo aprueba:",
+      "opciones": [
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Equipo Directivo que sigue los criterios y las directrices de la CCP",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Claustro de profesores del centro menos los aspectos educativos que los aprueba y evalúa el Director."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 44,
+      "pregunta": "El Plan de Atención a la Diversidad lo elabora:",
+      "opciones": [
+        "El Director del centro menos los aspectos educativos que los aprueba y evalúa el Claustro de profesores.",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Claustro establecerá los criterios generales y marcará las directrices a la CCP para la elaboración. Este proceso será tutelado e impulsado por el Equipo Directivo.",
+        "El Equipo Directivo que sigue los criterios y las directrices de la CCP"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 45,
+      "pregunta": "El Plan de Acción Tutorial lo aprueba:",
+      "opciones": [
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Claustro.",
+        "El Equipo Directivo que sigue los criterios y las directrices de la CCP",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Claustro de profesores del centro menos los aspectos educativos que los aprueba y evalúa el Director."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 46,
+      "pregunta": "Los centros podrán implantar Proyectos Propios de organización de las enseñanzas en el ejercicio de su Autonomía adoptando:",
+      "opciones": [
+        "Experimentaciones, planes de trabajo, formas de organización o ampliación del horario. No se pueden reducir las horas de Lengua Castellana, Matemáticas y Geografía e Historia",
+        "Experimentaciones, planes de trabajo, formas de organización o ampliación del horario. No se pueden reducir las horas de Lengua Castellana, Matemáticas y Lengua Extranjera.",
+        "Experimentaciones, planes de trabajo, formas de organización o ampliación del horario. No se pueden reducir las horas de Lengua Castellana, Matemáticas y Lengua Extranjera excepto para el alumnado de Educación Especial.",
+        "Experimentaciones, planes de trabajo, formas de organización o ampliación del horario. No se pueden reducir las horas de Lengua Castellana, Matemáticas y Biología"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 47,
+      "pregunta": "Las Programaciones Didácticas incluirán:",
+      "opciones": [
+        "La concreción de los objetivos de aprendizaje, los contenidos, las actividades de enseñanza aprendizaje, los materiales y los Procedimientos de evaluación.",
+        "La concreción de las competencias básicas, los contenidos, las actividades de enseñanza aprendizaje, los materiales y los Procedimientos de evaluación",
+        "La concreción de los objetivos de aprendizaje, la concreción de las competencias básicas, los contenidos, las actividades de enseñanza aprendizaje y los materiales.",
+        "La concreción de los objetivos de aprendizaje, la concreción de las competencias básicas, los contenidos, las actividades de enseñanza aprendizaje, los materiales y los Procedimientos de evaluación"
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 48,
+      "pregunta": "La Programación General Anual la elabora:",
+      "opciones": [
+        "El Claustro establecerá los criterios generales y marcará las directrices a la CCP para la elaboración. Este proceso será tutelado e impulsado por el Equipo Directivo.",
+        "El Equipo Directivo que sigue los criterios y las directrices de la CCP",
+        "El equipo directivo con las propuestas de mejora de los diferentes sectores de la Comunidad Educativa recogidas en la memoria.",
+        "El director del centro con las propuestas de los diferentes sectores de la Comunidad Educativa"
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 49,
+      "pregunta": "La Programación General Anual la aprueba:",
+      "opciones": [
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Director del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Claustro de profesores del centro menos los aspectos educativos que los aprueba y evalúa el Director."
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Qué es la Memoria Anual?",
+      "opciones": [
+        "Tiene naturaleza evaluadora ya que contribuye de manera cíclica, a enlazar cada año las programaciones didácticas con el Proyecto Educativo de centro",
+        "Tiene naturaleza evaluadora ya que contribuye de manera cíclica, a enlazar cada año la programación general de un curso con la siguiente, puesto que su principal contenido es valorar el grado de consecución de lo previsto en la PGA",
+        "Tiene naturaleza evaluadora ya que contribuye de manera cíclica, a enlazar cada año el Proyecto Educativo del Centro de un curso con el siguiente, puesto que su principal contenido es valorar el grado de consecución de lo previsto en la PGA.",
+        "Una memoria donde se recogen las actividades llevadas a cabo durante un curso escolar"
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 51,
+      "pregunta": "El Reglamento de Régimen Interior lo elabora:",
+      "opciones": [
+        "El equipo directivo con las directrices del Consejo Escolar y las propuestas realizadas por el claustro",
+        "El director del centro con las propuestas de los diferentes sectores de la Comunidad Educativa",
+        "El Claustro establecerá los criterios generales y marcará las directrices a la CCP para la elaboración. Este proceso será tutelado e impulsado por el Equipo Directivo.",
+        "El Equipo Directivo que sigue los criterios y las directrices de la CCP"
+      ],
+      "respuesta_correcta": 0
+    },
+    {
+      "id": 52,
+      "pregunta": "El Reglamento de Régimen Interior lo aprueba:",
+      "opciones": [
+        "El Consejo Escolar del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Equipo Directivo del centro menos los aspectos pedagógicos que incumben al Claustro",
+        "El Departamento de Orientación que sigue los criterios y las directrices de la CCP",
+        "El Claustro de profesores del centro menos los aspectos educativos que los aprueba y evalúa el Director."
+      ],
+      "respuesta_correcta": 0
+    }
+  ]
+}
