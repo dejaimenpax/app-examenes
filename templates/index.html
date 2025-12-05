@@ -4,30 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exámenes Test - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
+    <!-- Animated background gradient -->
+    <div class="gradient-bg"></div>
+    
+    <!-- Floating shapes decoration -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
     <div class="container">
-        <header>
-            <h1>📚 Sistema de exámenes</h1>
-            <p class="subtitle">Organización y gestión del centro</p>
-            <p class="subtitle-small">Máster universitario en Formación del profesorado de Ed. Secundaria, Bachillerato, FP e Idiomas</p>
-            <p class="subtitle">Selecciona el modo de examen que deseas realizar</p>
+        <header class="hero-header">
+            <div class="brand-badge">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>ExamPro</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Plataforma de</span>
+                <span class="title-highlight">Evaluación Inteligente</span>
+            </h1>
+            <div class="hero-subtitle">
+                <p class="subject-name">Organización y gestión del centro</p>
+                <p class="program-name">Máster universitario en Formación del profesorado de Ed. Secundaria, Bachillerato, FP e Idiomas</p>
+            </div>
+            <p class="hero-description">Selecciona el modo de examen que deseas realizar y comienza tu preparación</p>
         </header>
 
         <main>
             <div class="modos-container">
-                <div class="modo-card">
-                    <div class="modo-icono">📝</div>
+                <div class="modo-card" data-animate>
+                    <div class="card-badge">Modo estándar</div>
+                    <div class="card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 13H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10 9H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
                     <h2>Examen sin revisión</h2>
-                    <p class="modo-descripcion">
+                    <p class="card-description">
                         Responde 10 preguntas aleatorias y obtén tus resultados al final.
                         No podrás ver si acertaste hasta completar todo el examen.
                     </p>
-                    <ul class="modo-caracteristicas">
-                        <li>✓ 10 preguntas aleatorias</li>
-                        <li>✓ Corrección al finalizar</li>
-                        <li>✓ Ver todas las respuestas correctas</li>
+                    <ul class="card-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>10 preguntas aleatorias</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Corrección al finalizar</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Ver todas las respuestas correctas</span>
+                        </li>
                     </ul>
                     <a href="/examen/sin-revision" class="btn btn-primary btn-large">
                         Iniciar examen sin revisión
@@ -49,17 +98,38 @@
                     </div>
                 </div>
 
-                <div class="modo-card">
-                    <div class="modo-icono">✅</div>
+                <div class="modo-card" data-animate>
+                    <div class="card-badge card-badge-premium">Modo interactivo</div>
+                    <div class="card-icon card-icon-success">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.7088 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18455 2.99721 7.13631 4.39828 5.49706C5.79935 3.85781 7.69279 2.71537 9.79619 2.24013C11.8996 1.76489 14.1003 1.98232 16.07 2.86" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
                     <h2>Examen con revisión</h2>
-                    <p class="modo-descripcion">
+                    <p class="card-description">
                         Responde 10 preguntas aleatorias y recibe retroalimentación inmediata
                         después de cada respuesta.
                     </p>
-                    <ul class="modo-caracteristicas">
-                        <li>✓ 10 preguntas aleatorias</li>
-                        <li>✓ Corrección inmediata</li>
-                        <li>✓ Aprende mientras practicas</li>
+                    <ul class="card-features">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>10 preguntas aleatorias</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Corrección inmediata</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Aprende mientras practicas</span>
+                        </li>
                     </ul>
                     <a href="/examen/con-revision" class="btn btn-success btn-large">
                         Iniciar examen con revisión
@@ -83,11 +153,38 @@
             </div>
         </main>
 
-        <footer>
-            <p>Sistema de exámenes tipo test - Las preguntas son seleccionadas aleatoriamente</p>
-            <p class="author-credit">Desarrollado por Jaime González Casero</p>
+        <footer class="modern-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="footer-text">Sistema de exámenes tipo test - Las preguntas son seleccionadas aleatoriamente</p>
+                </div>
+                <div class="footer-credit">
+                    <span class="credit-label">Desarrollado por</span>
+                    <span class="credit-name">Jaime González Casero</span>
+                </div>
+            </div>
         </footer>
     </div>
+    
+    <script>
+        // Animate cards on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('animate-in');
+                    }, index * 150);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
+    </script>
     
     <script>
         // Cargar temas disponibles al cargar la página
